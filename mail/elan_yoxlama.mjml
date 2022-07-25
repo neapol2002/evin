@@ -1,0 +1,42 @@
+<mjml>
+  <mj-body background-color="#F2F2F2">
+    <mj-section>
+      <mj-column>
+
+        <mj-text font-size="26px" color="#DC143C" font-family="helvetica" align="center" font-weight="700">AZEV</mj-text>
+        <mj-text font-size="17px" color="#DC143C" font-family="helvetica" align="center" line-height="0.3" padding-top="0">daşınmaz əmlak</mj-text>
+        <mj-divider border-color="#6495ED"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+      <mj-section background-color="#Ffffff">
+    <mj-column>
+    <mj-text font-size="16px" color="#337ab7" font-family="helvetica">Sizin elanınız yoxlamaya göndərildi. Moderator tərəfindən yoxlanıldıqdan sonra sayta yerləşdiriləcək.</mj-text>
+    <mj-text font-size="16px" color="#ff0000" font-family="helvetica" font-weight="700">Diqqət! Elanın nömrəsini və şifrəsini itirməyin və heç kimə təqdim etməyin!</mj-text>\
+     <mj-text font-size="16px" color="#337ab7" font-family="helvetica" font-weight="700">Elanın nömrəsi: 4560538</mj-text>
+      <mj-text font-size="16px" color="#337ab7" font-family="helvetica" font-weight="700">Şifrə: 106070</mj-text>
+</mj-column>
+    </mj-section>
+      <mj-section>
+         <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.azev.az/">
+
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.azev.az/">
+          </mj-social-element>
+          <mj-social-element  name="youtube" href="https://www.azev.az/">
+          </mj-social-element>
+        </mj-social>
+      </mj-section>
+    <mj-section background-color="#6495ED" padding="0">
+      <mj-column>
+        <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link href="https://www.azev.az/" color="#ffffff">Son elanlar</mj-navbar-link>
+            <mj-navbar-link href="https://www.azev.az/" color="#ffffff">Kirayə evlər</mj-navbar-link>
+            <mj-navbar-link href="https://www.azev.az/" color="#ffffff">Yeni tikili</mj-navbar-link>
+            <mj-navbar-link href="https://www.azev.az/" color="#ffffff">Elan ver</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

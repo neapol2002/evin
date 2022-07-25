@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    fav icons start-->
+
+   <!--    fav icons end-->
+    <title>AZEV - daşınmaz əmlak</title>
+</head>
+
+<body>
+   <!-- Sprite -->
+<svg style="display: none;">
+
+    <symbol id="facebook" viewBox="0 0 430.113 430.114">
+        <g>
+            <path d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+                c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+                c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+        </g>
+    </symbol>
+
+    <symbol id="premium" viewBox="0 0 512 512">
+
+        <g>
+        <g><path d="m256 420.74 69.423-215.981h-138.846z"/><g><path d="m356.934 204.759-87.584 272.482 239.703-272.482z"/></g><path d="m155.066 204.759h-152.119l239.702 272.482z"/></g><g><g><path d="m512 174.759-59.044-123.638-79.481 123.638z"/><g><g><path d="m84.189 34.759 81.811 127.261 81.811-127.261z"/><path d="m264.189 34.759 81.811 127.261 81.811-127.261z"/></g><path d="m193.475 174.759h125.05l-62.525-97.261z"/></g></g><path d="m59.044 51.121-59.044 123.638h138.525z"/></g>
+        </g>
+    </symbol>
+
+    <symbol id="heart" viewBox="0 0 51.997 51.997">
+        <g>
+            <path d="M51.911,16.242C51.152,7.888,45.239,1.827,37.839,1.827c-4.93,0-9.444,2.653-11.984,6.905
+    c-2.517-4.307-6.846-6.906-11.697-6.906c-7.399,0-13.313,6.061-14.071,14.415c-0.06,0.369-0.306,2.311,0.442,5.478
+    c1.078,4.568,3.568,8.723,7.199,12.013l18.115,16.439l18.426-16.438c3.631-3.291,6.121-7.445,7.199-12.014
+    C52.216,18.553,51.97,16.611,51.911,16.242z"/>
+        </g>
+    </symbol>
+
+    <symbol id="document" viewBox="0 0 512 512">
+        <g>
+            <path d="m433.798 106.268-96.423-91.222c-10.256-9.703-23.68-15.046-37.798-15.046h-183.577c-30.327 0-55 24.673-55 55v402c0 30.327 24.673 55 55 55h280c30.327 0 55-24.673 55-55v-310.778c0-15.049-6.27-29.612-17.202-39.954zm-29.137 13.732h-74.661c-2.757 0-5-2.243-5-5v-70.364zm-8.661 362h-280c-13.785 0-25-11.215-25-25v-402c0-13.785 11.215-25 25-25h179v85c0 19.299 15.701 35 35 35h91v307c0 13.785-11.215 25-25 25z"/><path d="m363 200h-220c-8.284 0-15 6.716-15 15s6.716 15 15 15h220c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/><path d="m363 280h-220c-8.284 0-15 6.716-15 15s6.716 15 15 15h220c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/><path d="m215.72 360h-72.72c-8.284 0-15 6.716-15 15s6.716 15 15 15h72.72c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/>
+        </g>
+    </symbol>
+
+
+    <symbol id="vip" viewBox="0 0 250 250">
+        <g>
+    <path d="M226.57,94.88c-4.28-2.8-9.81-2.8-14.1,0l-41.49,27.1l-34.97-57.39c-3.7-6.08-11.64-8-17.71-4.3
+        c-1.76,1.07-3.23,2.54-4.3,4.3l-34.96,57.38l-41.49-27.1c-5.96-3.89-13.95-2.22-17.84,3.74c-1.77,2.71-2.46,5.98-1.92,9.17
+        L34.96,210.9c1.04,6.21,6.41,10.77,12.71,10.77h154.67c6.3,0,11.68-4.55,12.71-10.77l17.19-103.11
+        C233.07,102.74,230.85,97.67,226.57,94.88L226.57,94.88z"/>
+    <circle cx="125" cy="41.22" r="12.89"/>
+    <circle cx="228.11" cy="71.3" r="12.89"/>
+    <circle cx="21.89" cy="71.3" r="12.89"/>
+</g>
+    </symbol>
+
+    <symbol id="location" viewBox="0 0 306.034 306.034">
+        <g>
+    <path style="fill:#010002;" d="M153.017,0c-50.855,0-92.219,41.375-92.219,92.219c0,48.903,84.528,200.114,88.129,206.527
+                l4.09,7.288l4.096-7.288c3.595-6.418,88.124-157.624,88.124-206.527C245.237,41.375,203.862,0,153.017,0z M153.017,119.904
+                c-19.156,0-34.745-15.588-34.745-34.75c0-19.167,15.588-34.756,34.745-34.756c19.167,0,34.756,15.588,34.756,34.756
+                C187.773,104.316,172.179,119.904,153.017,119.904z"/>
+</g>
+    </symbol>
+
+    <symbol id="plan" viewBox="0 0 250 250">
+        <g>
+    <path d="M234.59,2.93H17.41c-6,0-10.86,4.86-10.86,10.86v224.42c0,6,4.86,10.86,10.86,10.86h217.18c6,0,10.86-4.86,10.86-10.86
+            V13.79C245.45,7.79,240.59,2.93,234.59,2.93z M223.73,89.8h-32.58c-6,0-10.86,4.86-10.86,10.86c0,6,4.86,10.86,10.86,10.86h32.58
+            v115.83H86.18v-32.58c0-6-4.86-10.86-10.86-10.86s-10.86,4.86-10.86,10.86v32.58h-36.2V24.65h36.2V144.1
+            c0,6,4.86,10.86,10.86,10.86s10.86-4.86,10.86-10.86v-32.58h54.29c6,0,10.86-4.86,10.86-10.86s-4.86-10.86-10.86-10.86H86.18
+            V24.65h137.55L223.73,89.8L223.73,89.8z"/>
+</g>
+    </symbol>
+
+    <symbol id="calendar" viewBox="0 0 512 512">
+        <g>
+    <path d="m512 169c0-33.41 0-56.783 0-59 0-24.813-20.187-45-45-45h-6v55c0 8.284-6.716 15-15 15s-15-6.716-15-15c0-16.839 0-63.232 0-80 0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-100v55c0 8.284-6.716 15-15 15s-15-6.716-15-15c0-16.839 0-63.232 0-80 0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-100v55c0 8.284-6.716 15-15 15s-15-6.716-15-15c0-16.839 0-63.232 0-80 0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-36c-24.813 0-45 20.187-45 45v59z"/><path d="m0 199v243c0 24.813 20.187 45 45 45h422c24.813 0 45-20.187 45-45 0-6.425 0-146.812 0-243-9.335 0-506.836 0-512 0zm144 208h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-64h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-64h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm128 128h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-64h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-64h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm128 128h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-64h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-64h-32c-8.284 0-15-6.716-15-15s6.716-15 15-15h32c8.284 0 15 6.716 15 15s-6.716 15-15 15z"/>
+</g>
+    </symbol>
+
+    <symbol id="stairs" viewBox="0 0 485.142 485.142">
+        <g>
+    <path d="M460.49,95.645h-88.625c-13.617,0-24.652,11.027-24.652,24.648v63.984H283.23c-13.621,0-24.656,11.023-24.656,24.645
+                v63.988H194.59c-13.621,0-24.652,11.039-24.652,24.646v67.07h-67.055c-6.543,0-12.813,2.594-17.434,7.211
+                c-4.625,4.62-7.219,10.918-7.219,17.435l0.008,51.569c0,13.634,11.039,24.66,24.652,24.66h357.6
+                c13.621,0,24.651-11.026,24.651-24.66V120.292C485.143,106.672,474.111,95.645,460.49,95.645z"/>
+            <path d="M330.756,24.605c-6.344-6.504-16.736-6.629-23.236-0.301C202.097,127,101.804,227.305,4.816,324.284
+                C1.73,327.37,0,331.562,0,335.913v112.47c0,9.064,7.355,16.438,16.434,16.438c9.07,0,16.438-7.371,16.438-16.438V342.714
+                c95.414-95.418,194.059-194.012,297.578-294.871C336.947,41.516,337.08,31.105,330.756,24.605z"/>
+</g>
+    </symbol>
+
+    <symbol id="sofa" viewBox="0 0 458.667 458.667">
+        <g>
+    <path d="M100.656,243.755c0,0.085,0,0.16,0,0.235c8.042,14.182,12.251,30.214,12.213,46.517v18.005
+                C147.205,295.083,187.365,288,229.339,288c55.648,0,96.512,12.128,118.027,20.459l0.149-17.963
+                c0-19.403,4.576-36.757,12.587-50.827l18.133-119.467c4.683-30.645-3.413-59.957-22.827-82.549
+                C334.821,13.739,303.643,0,269.872,0h-79.339c-33.835,0-65.067,13.739-85.579,37.685C85.563,60.288,77.456,89.6,82.139,120.224
+                L100.656,243.755z"/>
+            <path d="M421.925,224c-34.848,0-53.077,33.461-53.077,66.496v19.797c0,7.371-3.456,14.283-9.045,18.005
+                c-4.829,3.248-10.972,3.837-16.331,1.568c-18.667-7.669-58.283-20.533-114.133-20.533c-40.885,0-79.765,7.104-112.437,20.533
+                c-5.36,2.278-11.508,1.693-16.341-1.557c-5.579-3.733-9.045-10.667-9.045-18.005v-19.808c0-37.333-25.6-66.496-58.325-66.496
+                c-18.016,0-27.851,21.333-27.851,32.213c0,13.227,9.291,28.075,20.715,33.067c1.163,0.512,2.443,1.067,3.808,1.557
+                c10.368,4.139,29.653,11.829,29.653,33.931v42.88c0,16,3.445,51.2,32.235,57.824c-0.101,0.386-0.18,0.778-0.235,1.173v21.333
+                c0,5.891,4.776,10.667,10.667,10.667h10.667c5.891,0,10.667-4.776,10.667-10.667v-21.312h213.333V448
+                c0,5.891,4.776,10.667,10.667,10.667h10.667c5.891,0,10.667-4.776,10.667-10.667v-21.333c0-0.299-0.149-0.555-0.171-0.843
+                c26.272-5.013,32.171-33.675,32.171-58.144V324.8c0-22.123,19.2-29.813,29.536-33.952c1.333-0.533,2.592-1.067,3.744-1.547
+                c10.784-4.747,19.2-19.296,19.2-33.067C453.339,245.184,440.069,224,421.925,224z"/>
+</g>
+    </symbol>
+
+    <symbol id="percent" viewBox="0 0 263.285 263.285">
+        <g>
+    <path d="M193.882,8.561c-7.383-3.756-16.414-0.813-20.169,6.573L62.153,234.556c-3.755,7.385-0.812,16.414,6.573,20.169
+        c2.178,1.107,4.499,1.632,6.786,1.632c5.466,0,10.735-2.998,13.383-8.205L200.455,28.73
+        C204.21,21.345,201.267,12.316,193.882,8.561z"/>
+    <path d="M113.778,80.818c0-31.369-25.521-56.89-56.89-56.89C25.521,23.928,0,49.449,0,80.818c0,31.368,25.521,56.889,56.889,56.889
+        C88.258,137.707,113.778,112.186,113.778,80.818z M56.889,107.707C42.063,107.707,30,95.644,30,80.818
+        c0-14.827,12.063-26.89,26.889-26.89c14.827,0,26.89,12.062,26.89,26.89C83.778,95.644,71.716,107.707,56.889,107.707z"/>
+    <path d="M206.396,125.58c-31.369,0-56.89,25.521-56.89,56.889c0,31.368,25.52,56.889,56.89,56.889
+        c31.368,0,56.889-25.52,56.889-56.889C263.285,151.1,237.765,125.58,206.396,125.58z M206.396,209.357
+        c-14.827,0-26.89-12.063-26.89-26.889c0-14.826,12.063-26.889,26.89-26.889c14.826,0,26.889,12.063,26.889,26.889
+        C233.285,197.294,221.223,209.357,206.396,209.357z"/>
+</g>
+    </symbol>
+
+    </svg>
+<div class="vertical_wraper">
+   <header>
+<!--       small_header start-->
+        <div class="small_header">
+            <div class="container">
+                <div class="small_header_main">
+                    <div class="small_header_social_icons">
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/telegram.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/tik_tok.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/face.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/insta.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/youtube.png" alt="tik_tok">
+                        </a>
+                        </div>
+                        <div class="small_header_contact_number">
+                        <span>Dəstək xidməti: </span>(055) 565-65-65
+                    </div>
+
+
+                    <div class="small_header_wright_side">
+                    <a class="small_header_language_select"href="#">
+                        ru
+                    </a>
+                    <a class="small_header_son_elanlar"href="#">
+                        son elanlar
+                    </a>
+                    <a class="small_header_like_icon" href="#">
+                            <img src="img/icons/heart_white.png" alt="tik_tok">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div><!--        small_header end-->
+
+<!--  main header start -->
+  <div class="main_header">
+      <div class="container">
+          <div class="main_header_main">
+            <div class="main_header_logo">
+                <a>
+                    <img src="img/logo/Asset%206.png" alt="azev">
+                </a>
+            </div>
+
+            <nav class="main_header_navigation nav_burger">
+               <a class="main_header_button_enter_burger" href="#"><img src="img/icons/User_ping.png" alt="tik_tok">Giriş </a>
+                <a class="nav__link" href="#">Alqı-satqı</a>
+                <a class="nav__link" href="#">Kirayə</a>
+                <a class="nav__link" href="#">Əmlakçılar </a>
+                <a class="nav__link" href="#">Agentliklər </a>
+
+                <div class="small_header_social_icons1">
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/telegram.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/tik_tok.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/face.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/insta.png" alt="tik_tok">
+                        </a>
+                        <a class="small_header_social_icons_links" href="#">
+                            <img src="img/social_icons_header/youtube.png" alt="tik_tok">
+                        </a>
+                        </div>
+            </nav>
+            <div class="main_header_buttons">
+                <a class="main_header_button_enter" href="#"><img src="img/icons/User_ping.png" alt="tik_tok">Giriş </a>
+                <a class="main_header_button_elanver" href="#">+ Elan yerləşdir </a>
+                <div class="header_burger">
+                   <span></span>
+               </div>
+            </div>
+
+          </div>
+      </div>
+  </div> <!--  main header end -->
+  <div class="Home_add_section_divider_line">
+    <div class="container">
+        <div class="estate_add_section_divider_line_d"></div>
+    </div>
+</div>
+<div class="favorites_header_section">
+    <div class="container">
+<!--        <div class="favorites_header_section_title">Seçilmiş Elanlar</div>-->
+    </div>
+</div>
+ </header>
+
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+    {font-family:"Cambria Math";
+    panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+    {font-family:Calibri;
+    panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+    {font-family:"Segoe UI";
+    panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+    {margin-top:0cm;
+    margin-right:0cm;
+    margin-bottom:8.0pt;
+    margin-left:0cm;
+    line-height:107%;
+    font-size:11.0pt;
+    font-family:"Calibri","sans-serif";}
+h3
+    {mso-style-link:"Heading 3 Char";
+    margin-right:0cm;
+    margin-left:0cm;
+    font-size:13.5pt;
+    font-family:"Times New Roman","serif";
+    font-weight:bold;}
+/*
+a:link, span.MsoHyperlink
+    {color:blue;
+    text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+    {color:#954F72;
+    text-decoration:underline;}
+*/
+p
+    {margin-right:0cm;
+    margin-left:0cm;
+    font-size:12.0pt;
+    font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+    {mso-style-link:"Balloon Text Char";
+    margin:0cm;
+    margin-bottom:.0001pt;
+    font-size:9.0pt;
+    font-family:"Segoe UI","sans-serif";}
+span.Heading3Char
+    {mso-style-name:"Heading 3 Char";
+    mso-style-link:"Heading 3";
+    font-family:"Times New Roman","serif";
+    font-weight:bold;}
+span.BalloonTextChar
+    {mso-style-name:"Balloon Text Char";
+    mso-style-link:"Balloon Text";
+    font-family:"Segoe UI","sans-serif";}
+.MsoChpDefault
+    {font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+    {margin-bottom:8.0pt;
+    line-height:107%;}
+@page WordSection1
+    {size:595.3pt 841.9pt;
+    margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection1
+    {page:WordSection1;}
+-->
+</style>
+
+
+<div class="user_agreement_section">
+    <div class="container user_agreement_container">
+
+      <div class=WordSection1>
+
+<p class=MsoNormal style='line-height:normal'><b><span lang=RU
+style='font-size:13.5pt;font-family:"Arial","sans-serif";color:#727272'>&#304;ST&#304;FAD&#399;&Ccedil;&#304;
+RAZILA&#350;MASI</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=RU style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1. &Uuml;mumi
+&#351;&#601;rtl&#601;r</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=RU style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.1.</span></b><span lang=RU
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;H&#601;min
+Raz&#305;la&#351;ma&nbsp;</span><span lang=RU><a href="https://azev.az"><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif"'>https://</span><span
+lang=EN-US style='font-size:10.5pt;font-family:"Arial","sans-serif"'>azev</span><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif"'>.az</span></a></span><span
+lang=RU style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+&#304;stifad&#601;&ccedil;il&#601;ri t&#601;r&#601;find&#601;n istifad&#601;
+&#351;&#601;rtl&#601;rini m&uuml;&#601;yy&#601;n edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=RU style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.2.</span></b><span lang=RU
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;H&#601;min
+&#304;stifad&#601;&ccedil;i Raz&#305;la&#351;man&#305;n
+m&#601;qs&#601;dl&#601;ri &uuml;&ccedil;&uuml;n a&#351;a&#287;&#305;da
+g&ouml;st&#601;ril&#601;n terminl&#601;r v&#601; t&#601;yinl&#601;r
+a&#351;a&#287;&#305;dak&#305; m&#601;nada t&#601;tbiq olunur:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=RU style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.2.1. Servis</span></b><span
+lang=RU style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;–
+&#304;nternet &#351;&#601;b&#601;k&#601;sind&#601;&nbsp;</span><span lang=RU><a
+href="https://azev.az"><span style='font-size:10.5pt;font-family:"Arial","sans-serif"'>https://</span><span
+lang=EN-US style='font-size:10.5pt;font-family:"Arial","sans-serif"'>azev</span><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif"'>.az</span></a></span><span
+lang=RU style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&uuml;nvan&#305;nda
+yerl&#601;&#351;dirilmi&#351; &#304;nternet-resursu (sayt), m&uuml;xt&#601;lif
+&#601;m&#601;liyyat sisteml&#601;ri &#601;sas&#305;nda sayta
+&#601;lav&#601;l&#601;r v&#601; ba&#351;qa xidm&#601;tl&#601;r,
+h&#601;m&ccedil;inin proqram t&#601;minat&#305;d&#305;r, sayt&#305;n,
+&#601;lav&#601;l&#601;rin v&#601; ba&#351;qa xidm&#601;tl&#601;rin dizayn&#305;
+(qrafiki t&#601;rtibat&#305;), m&#601;lumat bazas&#305;, xidm&#601;tl&#601;rin
+ist&#601;nil&#601;n b&ouml;lm&#601;si (yar&#305;mb&ouml;lm&#601;l&#601;ri),
+h&#601;m&ccedil;inin xidm&#601;tl&#601;rd&#601; Administrasiya v&#601;
+&#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n
+yerl&#601;&#351;dirilmi&#351; informasiyad&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=RU style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.2.2. Administrasiya</span></b><span
+lang=RU style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;–
+Servisin inzibat&ccedil;&#305;l&#305;&#287;&#305;n&#305; Az&#601;rbaycan
+Respublikas&#305;n&#305;n qanunvericiliyin&#601; uy&#287;un olaraq h</span><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&#601;yata ke&ccedil;irdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.2.3.
+&#304;stifad&#601;&ccedil;i</span></b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;–
+raz&#305;la&#351;ma &#351;&#601;rtl&#601;rini q&#601;bul etmi&#351; v&#601;
+Servis xidm&#601;tl&#601;rind&#601;n istifad&#601; ed&#601;n
+ist&#601;nil&#601;n h&uuml;quq s&#601;lahiyy&#601;ti olan &#351;&#601;xsdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.2.4. &#350;&#601;xsi
+hesab</span></b><span lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;– bu &#304;stifad&#601;&ccedil;inin m&uuml;hitinin
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n m&uuml;&#601;yy&#601;n
+edilmi&#351; (yerl&#601;&#351;dirilmi&#351;) m&#601;lumatlar v&#601; qurmalar
+m&#601;cmusudur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.2.5.
+&#304;stifad&#601;&ccedil;inin &#351;&#601;xsi informasiyas&#305;</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;– &#304;stifad&#601;&ccedil;i haqq&#305;nda
+m&#601;lumatlard&#305;r v&#601; ya m&#601;lumatlar m&#601;cmusudur ki,
+&#304;stifad&#601;&ccedil;i &ouml;z&uuml; haqq&#305;nda,
+&#304;stifad&#601;&ccedil;inin &#351;&#601;xsi m&#601;lumatlar&#305;,
+Servisd&#601;n istifad&#601; prosesind&#601; Administrasiyaya avtomatik olaraq
+&ouml;t&uuml;r&uuml;l&#601;n informasiya, o c&uuml;ml&#601;d&#601;n
+IP-&uuml;nvan, cookie-d&#601;n informasiya, &#304;stifad&#601;&ccedil;inin
+brauzeri haqq&#305;nda v&#601; &#304;stifad&#601;&ccedil;i haqq&#305;nda
+ba&#351;qa informasiyalar daxil olmaqla, qeydiyyat vaxt&#305; s&#601;rb&#601;st
+v&#601; ya Servisd&#601;n istifad&#601; prosesind&#601; t&#601;qdim edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.2.6. &#304;nformasiya</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;– Servisd&#601; &#304;stifad&#601;&ccedil;i v&#601; ya
+Administrasiya t&#601;r&#601;find&#601;n yerl&#601;&#351;dirilmi&#351;
+ist&#601;nil&#601;n informasiyad&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.2.7. Spam</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;– alanlar t&#601;r&#601;find&#601;n k&uuml;tl&#601;vi,
+icaz&#601; verilm&#601;y&#601;n v&#601;/v&#601; ya
+g&ouml;zl&#601;nm&#601;y&#601;n reklam, informasiya, t&#601;&#351;viqat v&#601;
+ya ba&#351;qa xarakterli po&ccedil;t v&#601; ba&#351;qa
+g&ouml;nd&#601;rilm&#601;l&#601;rdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.2.8. &#399;mlak</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;– bu m&#601;hsul, i&#351;l&#601;r, xidm&#601;tl&#601;r,
+maddi-texniki resurslar, m&uuml;lki v&#601; qeyri-m&uuml;lki
+h&uuml;quqlard&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.2.9. H&#601;min
+Raz&#305;la&#351;man&#305;n T&#601;r&#601;fl&#601;ri</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;– Administrasiya v&#601; &#304;stifad&#601;&ccedil;idir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.3.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;H&#601;min &#304;stifad&#601;&ccedil;i
+Raz&#305;la&#351;mas&#305;nda istifad&#601; olunan v&#601; &quot;Terminl&#601;r
+v&#601; t&#601;yinl&#601;r&quot; b&#601;ndind&#601; &#601;ksini tapmayan
+ist&#601;nil&#601;n terminl&#601;r v&#601; anlay&#305;&#351;lar,
+&#304;stifad&#601;&ccedil;i Raz&#305;la&#351;mas&#305;n&#305;n
+m&#601;tnind&#601;n yaranan m&#601;naya m&uuml;vafiq olaraq izah edil&#601;c&#601;kdir.
+&#304;stifad&#601;&ccedil;i Raz&#305;la&#351;mas&#305;nda istifad&#601;
+edil&#601;n terminin v&#601; ya t&#601;yinin izah edilm&#601;si
+bar&#601;d&#601; ist&#601;nil&#601;n fikir ayr&#305;l&#305;qlar&#305;n&#305;n
+yaranmas&#305; hal&#305;nda Administrasiya t&#601;r&#601;find&#601;n
+m&uuml;&#601;yy&#601;n edil&#601;n izah etm&#601; t&#601;tbiq
+edil&#601;c&#601;kdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.4.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servis xidm&#601;tl&#601;rind&#601;n v&#601; materiallar&#305;ndan
+istifad&#601; edilm&#601; q&uuml;vv&#601;d&#601; olan qanunvericiliyin
+normalar&#305;, h&#601;m&ccedil;inin d&#601; haz&#305;rk&#305;
+Raz&#305;la&#351;ma il&#601; t&#601;nziml&#601;nir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.5.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Haz&#305;rk&#305; Raz&#305;la&#351;ma ictimai
+ofertad&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.6.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servis xidm&#601;tl&#601;rind&#601;n istifad&#601;
+ed&#601;r&#601;k, &#304;stifad&#601;&ccedil;i haz&#305;rk&#305;
+Raz&#305;la&#351;maya qo&#351;ulur v&#601; onun Servis xidm&#601;tl&#601;rind&#601;n
+istifad&#601; &uuml;zr&#601; t&#601;limatlar&#305;na riay&#601;t etm&#601;k
+&#351;&#601;rtl&#601;rini v&#601; &ouml;hd&#601;likl&#601;rini q&#601;bul edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.7.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#350;irk&#601;t ad&#305;ndan Servisd&#601;n istifad&#601;
+hal&#305;nda bel&#601; &#351;irk&#601;t haz&#305;rk&#305;
+Raz&#305;la&#351;man&#305; v&#601; onun &#351;&#601;rtl&#601;rini q&#601;bul
+edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.8.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Administrasiya ist&#601;nil&#601;n vaxt
+birt&#601;r&#601;fli qaydada haz&#305;rk&#305; Raz&#305;la&#351;man&#305;n
+&#351;&#601;rtl&#601;rini d&#601;yi&#351;dirm&#601;k h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.9.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;inin haz&#305;rk&#305;
+Raz&#305;la&#351;man&#305;n &#351;&#601;rtl&#601;ri il&#601; v&#601; ya ona
+daxil edilmi&#351; d&#601;yi&#351;iklikl&#601;rl&#601;
+raz&#305;la&#351;mad&#305;&#287;&#305; halda o Servis&#601; giri&#351;d&#601;n
+imtina etm&#601;li, Servisin xidm&#601;tl&#601;rind&#601;n istifad&#601;
+etm&#601;sini dayand&#305;rmal&#305;d&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.10.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Bununla Administrasiya
+&#304;stifad&#601;&ccedil;il&#601;r&#601; Servisin
+xidm&#601;tl&#601;rind&#601;n istifad&#601; etm&#601;kl&#601; elanlar&#305;n
+yerl&#601;&#351;dirilm&#601;si v&#601; axtar&#305;&#351;&#305; &uuml;zr&#601;
+xidm&#601;tl&#601;ri t&#601;klif edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.11.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Ayr&#305; xidm&#601;tl&#601;rin verilm&#601;si x&uuml;susi
+qaydalarla v&#601;/v&#601; ya raz&#305;la&#351;malarla
+t&#601;nziml&#601;n&#601; bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.12.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i o haqda
+m&uuml;dd&#601;an&#305; q&#601;bul edir ki, Servisin b&uuml;t&uuml;n
+materiallar&#305; v&#601; xidm&#601;tl&#601;ri v&#601; ya onlar&#305;n
+ist&#601;nil&#601;n hiss&#601;si reklamla m&uuml;&#351;ayi&#601;t oluna bil&#601;r.
+&#304;stifad&#601;&ccedil;i onunla raz&#305;d&#305;r ki, Administrasiya
+h&#601;r hans&#305; m&#601;suliyy&#601;ti da&#351;&#305;m&#305;r v&#601;
+bel&#601; reklamla &#601;laq&#601;dar h&#601;r hans&#305;
+&ouml;hd&#601;likl&#601;ri yoxdur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.13.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servisd&#601; qeydiyyat k&ouml;n&uuml;ll&uuml;d&uuml;r.
+Servisd&#601; qeydiyyat hal&#305;nda &#304;stifad&#601;&ccedil;i Servisin
+&#601;lav&#601; xidm&#601;tl&#601;rin&#601; daxil olur. Administrasiya
+&#304;stifad&#601;&ccedil;id&#601;n onun qeydiyyat vaxt&#305;
+g&ouml;st&#601;rdiyi m&#601;lumatlar&#305;n t&#601;sdiql&#601;nm&#601;sini
+v&#601; t&#601;sdiql&#601;yici s&#601;n&#601;dl&#601;ri ist&#601;nil&#601;n
+vaxt t&#601;l&#601;b etm&#601;k h&uuml;ququnu &ouml;z aya&#287;&#305;nda
+saxlay&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.14.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i &ouml;z parolunu gizli
+saxlama&#287;&#305; &ouml;hd&#601;sin&#601; g&ouml;t&uuml;r&uuml;r.
+&#304;stifad&#601;&ccedil;i &ouml;z elektron &uuml;nvan&#305;ndan v&#601;
+paroldan istifad&#601; il&#601; h&#601;r&#601;k&#601;tl&#601;r&#601;,
+h&#601;m&ccedil;inin d&#601; &#304;stifad&#601;&ccedil;inin &#350;&#601;xsi
+hesab&#305;nda yerin&#601; yetiril&#601;n h&#601;r&#601;k&#601;tl&#601;r&#601;
+g&ouml;r&#601; m&#601;suliyy&#601;t da&#351;&#305;y&#305;r.
+&#304;stifad&#601;&ccedil;i Servis xidm&#601;tl&#601;rind&#601;n yaln&#305;z
+&ouml;z &#351;&#601;xsi elektron &uuml;nvandan v&#601; paroldan istifad&#601;
+il&#601; istifad&#601; etm&#601;k h&uuml;ququna malikdir. &#399;g&#601;r
+&#304;stifad&#601;&ccedil;id&#601; onun &#350;&#601;xsi hesab&#305;na
+icaz&#601;siz daxil olma haqq&#305;nda
+&#351;&uuml;bh&#601;l&#601;nm&#601;y&#601; &#601;saslar varsa,
+&#304;stifad&#601;&ccedil;i &ouml;z parolunu s&#601;rb&#601;st
+d&#601;yi&#351;m&#601;yi &ouml;hd&#601;sin&#601; g&ouml;t&uuml;r&uuml;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.15.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Administrasiya &#304;stifad&#601;&ccedil;il&#601;r
+t&#601;r&#601;find&#601;n qeydiyyat v&#601;/v&#601; ya avtorizasiya zaman&#305;
+veril&#601;n informasiyan&#305;n d&uuml;zg&uuml;nl&uuml;y&uuml;n&uuml;n
+yoxlanmas&#305; &uuml;&ccedil;&uuml;n x&uuml;susi texniki q&#601;rarlardan
+istifad&#601; etm&#601;kd&#601; haql&#305;d&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.16.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Administrasiya z&#601;man&#601;t ver&#601; bilm&#601;z ki,
+&#304;stifad&#601;&ccedil;i h&#601;qiq&#601;t&#601;n t&#601;qdim edildiyi
+kimidir, Servisd&#601; qeydiyyat zaman&#305; &#304;stifad&#601;&ccedil;i
+t&#601;r&#601;find&#601;n verilmi&#351; informasiya is&#601; do&#287;rudur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.17.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;iy&#601; bunun
+&uuml;&ccedil;&uuml;n Servisd&#601; m&uuml;mk&uuml;n olan b&uuml;t&uuml;n
+al&#601;tl&#601;rd&#601;n istifad&#601; ed&#601;r&#601;k m&uuml;mk&uuml;n
+kontragentl&#601;rl&#601; &uuml;nsiyy&#601;t saxlama&#287;a t&ouml;vsiy&#601;
+edilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.18.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Administrasiya &ouml;z &#351;&#601;xsi
+m&uuml;lahiz&#601;si &uuml;zr&#601; &#304;stifad&#601;&ccedil;inin
+haz&#305;rk&#305; Raz&#305;la&#351;man&#305;n &#351;&#601;rtl&#601;rini pozan
+xidm&#601;tl&#601;rin&#601; giri&#351;i dayand&#305;rmaq h&uuml;ququnu &ouml;z
+aya&#287;&#305;nda saxlay&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.19.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n ba&#351;qa
+&#351;&#601;xsl&#601;rin h&uuml;quqlar&#305;n&#305;n v&#601; ya
+q&uuml;vv&#601;d&#601; olan qanunvericiliyin pozmas&#305; hal&#305;nda,
+h&#601;m&ccedil;inin ba&#351;qa s&#601;b&#601;bl&#601;rd&#601;n &ouml;z
+ist&#601;diyi kimi, Servis &#304;stifad&#601;&ccedil;inin giri&#351;ini
+m&#601;hdudla&#351;d&#305;rmaq v&#601; ya dayand&#305;rmaq h&uuml;ququna
+malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>1.20.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i, hans&#305;n&#305;n ki,
+xidm&#601;tl&#601;r&#601; giri&#351;i
+dayand&#305;r&#305;lm&#305;&#351;d&#305;r, v&#601; ya hans&#305;n&#305;n ki,
+m&#601;lumatlar&#305; etibars&#305;zd&#305;r, Administrasiyan&#305;n
+x&uuml;susi icaz&#601;si olmadan t&#601;krar olaraq qeydiyyatdan
+ke&ccedil;m&#601;k h&uuml;ququna malik deyildir. Bel&#601;
+&#304;stifad&#601;&ccedil;i h&#601;m&ccedil;inin Servis&#601; v&#601; onun
+xidm&#601;tl&#601;rin&#601; giri&#351; &uuml;&ccedil;&uuml;n ba&#351;qa
+&#304;stifad&#601;&ccedil;inin qeydiyyat m&#601;lumatlar&#305;ndan
+istifad&#601; etm&#601;k h&uuml;quqlar&#305;na malik deyildir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2. Servisd&#601;n
+istifad&#601;. Elanlar&#305;n yerl&#601;&#351;dirilm&#601;si</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.1.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Administrasiya x&uuml;susi forman&#305;n doldurandan sonra
+b&uuml;t&uuml;n qeydiyyatdan ke&ccedil;mi&#351; v&#601; qeydiyyatdan
+ke&ccedil;m&#601;mi&#351; &#304;stifad&#601;&ccedil;il&#601;r&#601;
+Servisd&#601; elanlar&#305; yerl&#601;&#351;dirm&#601;k h&uuml;ququnu verir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.2.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i qanunvericilik v&#601; ya
+beyn&#601;lxalq h&uuml;ququn normalar&#305; pozulmas&#305; kimi bax&#305;la
+bil&#601;n h&#601;r&#601;k&#601;tl&#601;ri, o c&uuml;ml&#601;d&#601;n
+intellektual m&uuml;lkiyy&#601;t, m&uuml;&#601;llifl&#601;r v&#601;/v&#601; ya
+yana&#351;&#305; h&uuml;quqlar sah&#601;sind&#601;, h&#601;m&ccedil;inin
+Servisin normal i&#351;inin pozulmas&#305;na g&#601;tirib &ccedil;&#305;xaran
+v&#601; ya g&#601;tirib &ccedil;&#305;xara bil&#601;c&#601;k
+ist&#601;nil&#601;n h&#601;r&#601;k&#601;tl&#601;ri,
+t&#601;&#351;&#601;bb&uuml;s etm&#601;m&#601;y&#601; raz&#305;la&#351;&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.3.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#399;mlaklar bar&#601;sind&#601; b&uuml;t&uuml;n
+sazi&#351;l&#601;r &#304;stifad&#601;&ccedil;il&#601;r aras&#305;nda
+birba&#351;a ba&#287;lan&#305;l&#305;r. Servis Servisin vasit&#601;si il&#601;
+&#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n h&#601;yata
+ke&ccedil;iril&#601;n sazi&#351;l&#601;rin i&#351;tirak&ccedil;&#305;
+v&#601;/v&#601; ya vasit&#601;&ccedil;isi deyildir. Administrasiya bel&#601;
+sazi&#351;l&#601;r&#601; n&#601;zar&#601;t etmir v&#601; onlara g&ouml;r&#601;
+m&#601;suliyy&#601;t da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.4.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;inin Servisd&#601;ki
+&#351;&#601;rhl&#601;ri v&#601; ba&#351;qa qeydl&#601;ri qanunvericiliyin
+t&#601;l&#601;bl&#601;ri v&#601; &#601;xlaq&#305;n ham&#305;
+t&#601;r&#601;find&#601;n q&#601;bul edilmi&#351; normalar&#305; il&#601;
+m&uuml;naqi&#351;&#601;y&#601; girm&#601;m&#601;lidir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.5.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i o haqda
+x&#601;b&#601;rdarl&#305;q edilmi&#351;dir ki, Administrasiya onun
+t&#601;r&#601;find&#601;n xarici resurslara giri&#351;&#601; v&#601;
+istifad&#601;y&#601; g&ouml;r&#601; m&#601;suliyy&#601;t da&#351;&#305;m&#305;r,
+hans&#305;lara ki, dair istinadlar Servisd&#601; ola bil&#601;r. Administrasiya
+elanlar&#305;n m&#601;zmununa, ba&#351;qa resurslara istinadlar v&#601;
+elanlar&#305;n t&#601;svirind&#601; g&ouml;st&#601;rilmi&#351; ba&#351;qa
+informasiyaya g&ouml;r&#601; m&#601;suliyy&#601;t da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.6.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n
+verilmi&#351; elanlar&#305;, m&#601;lumatlar&#305; v&#601; informasiyan&#305;
+d&#601;rc etm&#601;k h&uuml;ququnun Administrasiya t&#601;r&#601;find&#601;n
+al&#305;nmas&#305; m&#601;qs&#601;di il&#601; &#304;stifad&#601;&ccedil;i
+Administrasiyaya h&#601;r yerd&#601; q&uuml;vv&#601;d&#601; olan,
+m&uuml;dd&#601;tsiz, qaytar&#305;lmaz, qeyri-m&uuml;st&#601;sna istifad&#601;,
+yay&#305;lma, n&#601;&#351;r, y&#305;&#287;&#305;m, i&#351;l&#601;nm&#601;,
+n&uuml;mayi&#351;, sur&#601;t &ccedil;&#305;xarma, t&#601;krarlama
+h&uuml;ququnu, m&#601;lumatlar&#305;n, t&#601;svirl&#601;rin,
+&#351;&#601;kill&#601;rin, video v&#601; audio materiallar&#305;n, m&#601;lumat
+bazalar&#305;n&#305;n, n&#601;&#351;rl&#601;rin, m&uuml;&#601;llif
+h&uuml;quqlar&#305;n&#305;n v&#601; intellektual m&uuml;lkiyy&#601;t
+h&uuml;quqlar&#305;n&#305;n, h&#601;m&ccedil;inin &#304;stifad&#601;&ccedil;i
+t&#601;r&#601;find&#601;n b&uuml;t&uuml;n m&#601;lum olan v&#601; ya m&#601;lum
+olmayan informasiya da&#351;&#305;y&#305;c&#305;lar&#305;nda
+ist&#601;nil&#601;n ba&#351;qa informasiyan&#305;n yenid&#601;n hasili
+h&uuml;ququnu verir. Yuxar&#305; sadalanm&#305;&#351; h&uuml;quqlar
+Administrasiyaya pulsuz verilir. &#304;stifad&#601;&ccedil;i Servisin
+b&uuml;t&uuml;n &#304;stifad&#601;&ccedil;il&#601;rin&#601;
+&ouml;z&uuml;n&uuml;n t&#601;r&#601;find&#601;n yerl&#601;&#351;dirilmi&#351;
+informasiyaya giri&#351;&#601; h&uuml;quq verir. &#399;lav&#601; olaraq
+&#304;stifad&#601;&ccedil;i Servisd&#601; onun t&#601;r&#601;find&#601;n
+yerl&#601;&#351;dirilmi&#351; materiallara ist&#601;nil&#601;n intellektual
+m&uuml;lkiyy&#601;t h&uuml;quqlar&#305;na malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.7.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n
+ist&#601;nil&#601;n informasiyan&#305;n v&#601; m&#601;lumatlar&#305;n
+verilm&#601;si il&#601; &#601;laq&#601;dar olaraq &uuml;&ccedil;&uuml;nc&uuml;
+&#351;&#601;xsl&#601;rin h&uuml;quqlar&#305;n&#305;n pozulmas&#305;na
+g&ouml;r&#601; Servis m&#601;suliyy&#601;t da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.8.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servisin istifad&#601;&ccedil;isi Servisin
+t&#601;limatlar&#305;na uy&#287;un olaraq elanlar&#305;
+yerl&#601;&#351;dirm&#601;yi v&#601; &#399;mlak v&#601; onun
+sat&#305;lmas&#305; &#351;&#601;rtl&#601;ri haqq&#305;nda etibarl&#305; v&#601;
+tam informasiyan&#305; verm&#601;yi &ouml;hd&#601;sin&#601;
+g&ouml;t&uuml;r&uuml;r. &#304;stifad&#601;&ccedil;i elanda
+g&ouml;st&#601;rilmi&#351; &#399;mlak haqq&#305;nda informasiyan&#305;
+yoxlamal&#305; v&#601;, s&#601;hv v&#601; ya natamam m&#601;lumatlar a&#351;kar
+edildikd&#601;, elandak&#305; laz&#305;ml&#305; m&#601;lumatlar&#305;
+d&uuml;z&#601;ltm&#601;li v&#601; ya tamamlamal&#305;d&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.9.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#399;mlak il&#601; elan&#305;
+yerl&#601;&#351;dir&#601;r&#601;k, &#304;stifad&#601;&ccedil;i t&#601;sdiq edir
+ki, o elanda g&ouml;st&#601;rilmi&#351; h&#601;r&#601;k&#601;tl&#601;rin
+bel&#601; Mal bar&#601;sind&#601; h&#601;yata ke&ccedil;irm&#601;k
+h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.10.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i t&#601;sdiq edir ki,
+Servisd&#601; elanlarda informasiyan&#305;n v&#601; m&#601;lumatlar&#305;n
+yerl&#601;&#351;dirilm&#601;sin&#601;, b&uuml;t&uuml;n laz&#305;ml&#305;
+h&uuml;quqlara, lisenziyalara, icaz&#601;l&#601;r&#601; malikdir,
+b&uuml;t&uuml;n patentl&#601;r, ticar&#601;t markalar&#305;, ticar&#601;t
+sirl&#601;ri, intellektual m&uuml;lkiyy&#601;t h&uuml;quqlar&#305; daxil
+olmaqla, v&#601; ya uy&#287;un olan yaz&#305;l&#305; raz&#305;l&#305;&#287;a, lisenziyaya
+v&#601; ya &uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;rin onlar&#305;n
+adlar&#305;ndan, t&#601;svirl&#601;rd&#601;n v&#601; ya ba&#351;qa
+obyektl&#601;rd&#601;n istifad&#601; &uuml;&ccedil;&uuml;n icaz&#601;sin&#601;
+malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.11.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servis &#304;stifad&#601;&ccedil;id&#601;n
+yerl&#601;&#351;dirilmi&#351; &#399;mlak haqq&#305;nda &#601;lav&#601;
+m&#601;lumat&#305; v&#601;/v&#601; ya &#304;stifad&#601;&ccedil;i
+t&#601;r&#601;find&#601;n verilmi&#351; m&#601;lumatlar&#305; t&#601;sdiql&#601;y&#601;n
+s&#601;n&#601;dl&#601;&#351;m&#601;ni t&#601;l&#601;b etm&#601;k h&uuml;ququna
+malikdir. Servis bel&#601; s&#601;n&#601;dl&#601;&#351;m&#601;nin v&#601; ya
+informasiyan&#305;n verilm&#601;sin&#601; q&#601;d&#601;r n&#601;&#351;ri
+saxlamaq h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.12.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i Servisd&#601; ona
+ist&#601;nil&#601;n aid olan &#399;mlaklar&#305;, bu &#351;&#601;rt il&#601;
+ki, bunun &uuml;&ccedil;&uuml;n x&uuml;susi icaz&#601;l&#601;r t&#601;l&#601;b
+olunmur, h&#601;m&ccedil;inin istifad&#601;nin q&uuml;vv&#601;d&#601; olan
+qaydalar&#305;na riay&#601;t etm&#601; &#351;&#601;rti il&#601;, satmaq
+h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.13.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Xidm&#601;tl&#601;rin y&uuml;ks&#601;k keyfiyy&#601;tini
+d&#601;st&#601;kl&#601;m&#601;k &uuml;&ccedil;&uuml;n, Servis Servisd&#601;
+&#304;stifad&#601;&ccedil;inin aktiv elanlar&#305;n&#305;n miqdar&#305;n&#305;
+m&#601;hdudla&#351;d&#305;rmaq, h&#601;m&ccedil;inin Servisd&#601;
+&#304;stifad&#601;&ccedil;inin h&#601;r&#601;k&#601;tl&#601;rini
+m&#601;hdudla&#351;d&#305;rmaq h&uuml;ququnu &ouml;z aya&#287;&#305;nda
+saxlay&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.14.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Elanda &#399;mlak&#305;n &#304;stifad&#601;&ccedil;i
+t&#601;r&#601;find&#601;n g&ouml;st&#601;rilmi&#351; t&#601;sviri bu
+&#399;mlak&#305;n sat&#305;&#351;&#305; &#351;&#601;rtl&#601;rini
+t&#601;&#351;kil edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.15.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Xidm&#601;tin elanda g&ouml;st&#601;rilmi&#351;
+g&ouml;st&#601;rilm&#601;si &#351;&#601;rtl&#601;ri v&#601; ya sat&#305;&#351;
+&#351;&#601;rtl&#601;ri v&#601; &#399;mlak&#305;n t&#601;sviri,
+h&#601;m&ccedil;inin elan&#305;n ba&#351;qa &#351;&#601;rtl&#601;ri, h&#601;m
+elan&#305;n yerl&#601;&#351;dirilm&#601;si vaxt&#305;, h&#601;m d&#601;
+g&#601;l&#601;c&#601;kd&#601; q&uuml;vv&#601;d&#601; olan qanunvericiliy&#601;
+v&#601; haz&#305;rk&#305; Raz&#305;la&#351;maya zidd olmamal&#305;d&#305;r.
+&#399;g&#601;r elan&#305;n h&#601;r hans&#305; &#351;&#601;rti bel&#601; olur
+v&#601; ya etiraf edilir, hans&#305; ki, q&uuml;vv&#601;d&#601; olan
+qanunvericiliy&#601; v&#601; ya haz&#305;rk&#305; Raz&#305;la&#351;maya
+d&#601;yi&#351;iklikl&#601;rin daxil etm&#601;si n&#601;tic&#601;sind&#601;
+qanunvericiliy&#601; v&#601;/v&#601; ya haz&#305;rk&#305; Raz&#305;la&#351;maya
+uy&#287;un deyil, bel&#601; &#351;&#601;rtl&#601;r v&#601; ya bel&#601; elan
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n el&#601;
+tamamlanmal&#305; v&#601; ya d&#601;yi&#351;dirilm&#601;lidir ki,
+ist&#601;nil&#601;n uy&#287;unsuzluqlar aradan qald&#305;r&#305;ls&#305;n.
+Uy&#287;un olan d&#601;yi&#351;iklikl&#601;rin daxil etm&#601;sinin
+qeyri-m&uuml;mk&uuml;nl&uuml;y&uuml; hal&#305;nda bel&#601; elan
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n silinm&#601;lidir. Haz&#305;rk&#305;
+b&#601;ndd&#601; g&ouml;st&#601;rilmi&#351; hadis&#601;l&#601;rin
+yaranmas&#305; vaxt&#305; Administrasiya bel&#601; elanlar&#305;n
+redakt&#601;si v&#601; ya silinm&#601;si &uuml;zr&#601;
+h&#601;r&#601;k&#601;tl&#601;ri &#304;stifad&#601;&ccedil;inin ilkin
+x&#601;b&#601;rdarl&#305;&#287;&#305; olmadan h&#601;yata ke&ccedil;irm&#601;k
+h&uuml;ququnu &ouml;z aya&#287;&#305;nda saxlay&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.16.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servisd&#601; o elanlar qada&#287;an edilmi&#351;dir ki,
+n&#601;&#351;ri q&uuml;vv&#601;d&#601; olan qanunvericiliyi pozur,
+&#601;xlaq&#305;n ham&#305; t&#601;r&#601;find&#601;n q&#601;bul edilmi&#351;
+normalar&#305;na ziddir, t&#601;hqiredicidir v&#601; ya yersizdir,
+h&#601;m&ccedil;inin d&#601; &uuml;&ccedil;&uuml;nc&uuml;
+&#351;&#601;xsl&#601;rin h&uuml;quqlar&#305;n&#305; pozur.
+&#304;stifad&#601;&ccedil;i &#601;min olmal&#305;d&#305;r ki, t&#601;klif
+q&uuml;vv&#601;d&#601; olan qanunvericilik v&#601; haz&#305;rk&#305;
+Raz&#305;la&#351;man&#305;n &#351;&#601;rtl&#601;rini pozmur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.17.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Pullu xidm&#601;tl&#601;rd&#601;n istifad&#601;
+z&#601;man&#601;t vermir ki, elan haz&#305;rk&#305; Raz&#305;la&#351;man&#305;n
+pozulmas&#305; zaman&#305; Administrasiya t&#601;r&#601;find&#601;n
+bloklanmayacaqd&#305;r. Elanlar&#305;n yerl&#601;&#351;dirilm&#601;si
+qaydalar&#305;n&#305;n pozulmas&#305; hal&#305;nda &ouml;d&#601;nmi&#351;
+xidm&#601;tl&#601;r&#601; g&ouml;r&#601; pul vasit&#601;l&#601;ri
+qaytar&#305;lm&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.18.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Elanda &ouml;z&uuml;nd&#601; sat&#305;&#351;,
+istifad&#601; haqq&#305;nda t&#601;klifl&#601;ri v&#601; ya mallar v&#601;
+xidm&#601;tl&#601;r haqq&#305;nda ba&#351;qa informasiyan&#305; saxlayan
+internet-saytlar&#305;n s&#601;hif&#601;l&#601;rin&#601; istinadlar&#305;
+qoymaq qada&#287;and&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.19.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i veril&#601;n
+xidm&#601;tl&#601;ri d&#601;st&#601;kl&#601;m&#601;m&#601;yi v&#601;
+haqq&#305;nda informasiyan&#305; yaymama&#287;&#305; &ouml;hd&#601;sin&#601;
+g&ouml;t&uuml;r&uuml;r:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.19.1.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;ba&#351;qa ticar&#601;t meydan&ccedil;alar&#305;,
+internet-h&#601;rraclar&#305; v&#601;/v&#601; ya internet ma&#287;azalar&#305;
+t&#601;r&#601;find&#601;n;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.19.2.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servisd&#601; h&#601;min v&#601; ya daha az
+&ouml;d&#601;ni&#351;l&#601; t&#601;qdim edilmi&#351; mallar&#305; v&#601;
+xidm&#601;tl&#601;ri t&#601;klif ed&#601;n ba&#351;qa xidm&#601;tl&#601;r
+t&#601;r&#601;find&#601;n;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.19.3.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servisd&#601; sat&#305;&#351;a qada&#287;an edilmi&#351;
+mallar&#305; v&#601; xidm&#601;tl&#601;ri t&#601;klif ed&#601;n ba&#351;qa xidm&#601;tl&#601;r
+t&#601;r&#601;find&#601;n.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.20.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i Administrasiyan&#305;n
+yaz&#305; icaz&#601;si olmadan Servis&#601; giri&#351;in al&#305;nmas&#305;
+&uuml;&ccedil;&uuml;n avtomatik proqramlardan istifad&#601; etm&#601;m&#601;yi
+&ouml;hd&#601;sin&#601; g&ouml;t&uuml;r&uuml;r. Elanlar&#305;
+yerl&#601;&#351;dirm&#601;y&#601; icaz&#601; ver&#601;n komp&uuml;ter
+proqramlar&#305;ndan istifad&#601; elanlar&#305;n yerl&#601;&#351;dirilm&#601;sinin
+adi s&#305;ras&#305;n&#305; ke&ccedil;&#601;r&#601;k, Administrasiyan&#305;n
+yaz&#305;l&#305; icaz&#601;si olmad&#305;&#287;&#305; halda,
+qada&#287;and&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.21.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Bundan ba&#351;qa, &#304;stifad&#601;&ccedil;i
+&ouml;hd&#601;sin&#601; g&ouml;t&uuml;r&uuml;r:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.21.1.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servisin infrastrukturunu b&ouml;y&uuml;k
+y&uuml;kl&#601;nm&#601;y&#601; g&#601;tirib &ccedil;&#305;xara bil&#601;n
+he&ccedil; bir h&#601;r&#601;k&#601;t&#601; t&#601;&#351;&#601;bb&uuml;s
+etm&#601;m&#601;yi;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.21.2.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Administrasiyan&#305;n ilkin yaz&#305;l&#305; icaz&#601;si
+olmadan Servisd&#601; olan&#305; ist&#601;nil&#601;n informasiyan&#305;
+k&ouml;&ccedil;&uuml;rm&#601;m&#601;yi, t&#601;krar etm&#601;m&#601;yi,
+d&#601;yi&#351;dirm&#601;m&#601;yi, yaymama&#287;&#305; v&#601;
+ictimaiyy&#601;t&#601; t&#601;qdim etm&#601;m&#601;yi;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.21.3.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;Servis&#601; giri&#351;&#601; mane olmaq v&#601; ya
+m&#601;hdudla&#351;d&#305;rmaq m&#601;qs&#601;di il&#601; Servisin
+i&#351;in&#601; mane olmama&#287;&#305;, h&#601;m&ccedil;inin avtomatik
+sisteml&#601;rin v&#601; ya prosesl&#601;rin h&#601;r&#601;k&#601;tin&#601;
+mane olmama&#287;&#305;;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n
+verilmi&#351; m&#601;lumatlar v&#601; onun Servisd&#601;
+h&#601;r&#601;k&#601;tl&#601;ri olmamal&#305;d&#305;r:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.1.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;yanl&#305;&#351;l&#305;q, qeyri-d&#601;qiqlik v&#601; ya
+aldatma;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.2.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;d&#601;l&#601;duzlu&#287;a, aldatma&#287;a v&#601; ya
+etimaddan sui-istifad&#601;y&#601; imkan yaratma;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.3.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;o&#287;urluq v&#601; ya saxta &#601;&#351;yalarla
+sazi&#351;l&#601;rin ba&#287;lanmas&#305;na aparma;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.4.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsin
+m&uuml;lkiyy&#601;tini pozmaq v&#601; ya onun ticar&#601;t sirrin&#601; v&#601;
+ya onun &#351;&#601;xsi h&#601;yat&#305;na toxunulmazl&#305;q h&uuml;ququna
+q&#601;sd etm&#601;;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.5.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&ouml;z&uuml;nd&#601; kimins&#601;
+&#351;&#601;r&#601;fini, l&#601;yaq&#601;tini v&#601; ya i&#351;g&uuml;zar
+reputasiyas&#305;n&#305; t&#601;hqir ed&#601;n m&#601;lumatlar&#305; saxlama;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.6.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&ouml;z&uuml;nd&#601; kim&#601; qa&#351;&#305; olursa
+olsun b&ouml;htan v&#601; ya t&#601;hdidl&#601;ri saxlama;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.7.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;cinay&#601;tin t&ouml;r&#601;dilm&#601;sin&#601;
+&ccedil;a&#287;&#305;rma, h&#601;m&ccedil;inin mill&#601;tl&#601;raras&#305; d&uuml;&#351;m&#601;n&ccedil;iliyi
+q&#305;z&#305;&#351;d&#305;rma;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.8.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;imkan yaratmaq, d&#601;st&#601;kl&#601;m&#601;k v&#601; ya
+terror v&#601; ekstremist f&#601;aliyy&#601;t&#601; &ccedil;a&#287;&#305;rmaq;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.9.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&#601;d&#601;bsizlik, v&#601; ya pornoqrafiya xarakterini
+da&#351;&#305;maq;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span lang=AZ-LATIN style='font-size:
+10.5pt;font-family:"Arial","sans-serif";color:#727272'>2.22.10.</span></b><span
+lang=AZ-LATIN style='font-size:10.5pt;font-family:"Arial","sans-serif";
+color:#727272'>&nbsp;&ouml;z&uuml;nd&#601; komp&uuml;ter viruslar&#305;n&#305;
+saxlamaq, h&#601;m&ccedil;inin d&#601; ba&#351;qa komp&uuml;ter
+proqramlar&#305;, x&uuml;susi halda, ziyan&#305;n
+&ccedil;&#601;kilm&#601;sin&#601;, s&#601;lahiyy&#601;tsiz
+m&uuml;daxil&#601;y&#601;, gizli &#601;l&#601; ke&ccedil;irm&#601;y&#601;
+v&#601; ya ist&#601;nil&#601;n sistemin m&#601;lumatlar&#305;n&#305;n v&#601;
+ya sistemin &ouml;z&uuml;n&uuml;n, v&#601; ya onun hiss&#601;sinin, v&#601; ya
+&#351;&#601;xsi informasiyan&#305;n v&#601; ya ba&#351;qa
+m&#601;lumatlar&#305;n (Servisin m&#601;lumatlar&#305; daxil olmaqla) m&#601;nims&#601;nm&#601;sin&#601;
+y&ouml;n&#601;ldilmi&#351;;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.22.11.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&ouml;z&uuml;nd&#601;
+reklam xarakterli materiallar&#305; saxlamaq;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.22.12.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&uuml;&ccedil;&uuml;nc&uuml;
+&#351;&#601;xsl&#601;rin intellektual h&uuml;quqlar&#305;n&#305;,
+v&#601;t&#601;nda&#351;&#305;n t&#601;svirin&#601; h&uuml;ququnu v&#601;
+&uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;rin ba&#351;qa h&uuml;quqlar&#305;n&#305;
+pozmaq;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.22.13.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;q&uuml;vv&#601;d&#601;
+olan qanunvericiliyi ba&#351;qa &uuml;sulla pozmaq.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.23.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;iy&#601;
+Servisd&#601; elanlar&#305; yerl&#601;&#351;dirm&#601;y&#601;, Servisd&#601;
+xidm&#601;tl&#601;rd&#601;n istifad&#601; etm&#601;kl&#601; sazi&#351;l&#601;ri
+ba&#287;lamaq v&#601; ya icra etm&#601;y&#601; qada&#287;an edilir ki, Servis
+v&#601;/v&#601; ya &#304;stifad&#601;&ccedil;isi t&#601;r&#601;find&#601;n
+q&uuml;vv&#601;d&#601; olan qanunvericiliyin pozulmas&#305;na g&#601;tirib
+&ccedil;&#305;xara bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.24.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+Servisd&#601; bar&#601;sind&#601; elan yerl&#601;&#351;dirilmi&#351;
+&#399;mlak&#305;, bel&#601; &#399;mlak bar&#601;sind&#601; elan verilm&#601;si
+zaman&#305; &#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n
+g&ouml;st&#601;rilmi&#351; f&#601;rql&#601;n&#601;n &uuml;sulla, reklam
+etm&#601;k h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.25.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+ist&#601;nil&#601;n elan&#305;n Servisd&#601;n as&#305;l&#305; v&#601; ya
+m&uuml;st&#601;qil s&#601;b&#601;bl&#601;rd&#601;n n&uuml;mayi&#351;
+m&uuml;dd&#601;tl&#601;rinin yerini d&#601;yi&#351;dirm&#601;k,
+dayand&#305;rmaq, bitirm&#601;k v&#601; ya uzatmaq h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.26.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+ist&#601;nil&#601;n vaxt ist&#601;nil&#601;n elan&#305;n n&uuml;mayi&#351;ini,
+haz&#305;rk&#305; Raz&#305;la&#351;mada s&ouml;yl&#601;nmi&#351; qaydalar&#305;
+pozan s&#601;b&#601;bl&#601;rd&#601;n, h&#601;m&ccedil;inin d&#601; ba&#351;qa
+&#304;stifad&#601;&ccedil;il&#601;rin h&uuml;quqlar&#305;n&#305; pozan v&#601;
+ya q&uuml;vv&#601;d&#601; olan qanunvericiliyi pozan
+s&#601;b&#601;bl&#601;rd&#601;n, h&#601;m&ccedil;inin ba&#351;qa
+s&#601;b&#601;bl&#601;rd&#601;n, dayand&#305;rmaq h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.27.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+elanlar&#305; redakt&#601; etm&#601;k, onlar&#305; ba&#351;qa rubrikalara
+ke&ccedil;irm&#601;k, h&#601;m&ccedil;inin &#304;stifad&#601;&ccedil;il&#601;rin
+elanlar&#305; il&#601; ist&#601;nil&#601;n ba&#351;qa
+h&#601;r&#601;k&#601;tl&#601;ri etm&#601;k h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.28.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+elanlar&#305;n yerl&#601;&#351;dirilm&#601;sind&#601;n
+(n&#601;&#351;rind&#601;n) imtina etm&#601;k h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.29.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Elan&#305;n
+r&#601;smil&#601;&#351;dirilm&#601;sin&#601; dair
+t&#601;l&#601;bl&#601;rl&#601; (Servisd&#601; elanlar&#305;n
+yerl&#601;&#351;dirilm&#601;si qaydalar&#305; il&#601;) bu ke&ccedil;id&#601;
+daxil olaraq tan&#305;&#351; ola bil&#601;rsiniz.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.30.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+q&uuml;vv&#601;d&#601; olan qanunvericiliy&#601; &#601;sas&#601;n
+elanlar&#305;n m&#601;zmununa g&ouml;r&#601; tam v&#601; x&uuml;susi
+m&#601;suliyy&#601;ti da&#351;&#305;y&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3. Pullu xidm&#601;tl&#601;r</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;il&#601;r
+Servisd&#601; pullu xidm&#601;tl&#601;ri sifari&#351; ed&#601; bil&#601;rl&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Pullu
+xidm&#601;tl&#601;rin n&ouml;vl&#601;ri:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.2.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Axtar&#305;&#351;da
+ir&#601;li &ccedil;&#601;k</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.2.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;VIP</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.2.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Premium</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.2.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&Ouml;d&#601;ni&#351;li
+elan</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Xidm&#601;tl&#601;r&#601;
+qiym&#601;tl&#601;r, h&#601;m&ccedil;inin pullu xidm&#601;tl&#601;rin
+sifari&#351; qaydas&#305; Servisin m&uuml;vafiq
+s&#601;hif&#601;l&#601;rind&#601; g&ouml;st&#601;rilmi&#351;dir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+xidm&#601;tl&#601;rini &ouml;d&#601;mi&#351; Servis
+&#304;stifad&#601;&ccedil;isi vasit&#601;l&#601;rin qaytar&#305;lmas&#305;
+xahi&#351;i il&#601; Administrasiyaya m&uuml;raci&#601;t etm&#601;k
+h&uuml;ququna malikdir. Pul vasit&#601;l&#601;rinin qaytar&#305;lmas&#305;nda
+qaytar&#305;lma v&#601; ya imtina haqq&#305;nda q&#601;rar birt&#601;r&#601;fli
+qayda il&#601; Administrasiya t&#601;r&#601;find&#601;n q&#601;bul edilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+pul vasit&#601;l&#601;rinin &#304;stifad&#601;&ccedil;iy&#601;
+qaytar&#305;lmas&#305;nda imtina etm&#601;kd&#601; bu hallarda
+haql&#305;d&#305;r, &#601;g&#601;r:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.5.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+haz&#305;rk&#305; Raz&#305;la&#351;man&#305;n &#351;&#601;rtl&#601;rini
+m&uuml;nt&#601;z&#601;m pozur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.5.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#399;g&#601;r
+xidm&#601;t aktivl&#601;&#351;dirilmi&#351;dir, h&#601;m&ccedil;inin hallarda,
+&#601;g&#601;r elan moderasiyadan sonra silinmi&#351;dir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.5.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+qada&#287;an edilmi&#351; mallar, xidm&#601;tl&#601;r v&#601;
+t&#601;klifl&#601;r haqq&#305;nda elan&#305; yerl&#601;&#351;dirmi&#351;dir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.5.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&Ouml;d&#601;m&#601;
+sistemind&#601; h&#601;r hans&#305; nasazl&#305;qlar&#305;n yaranmas&#305;
+hal&#305;nda. Servis &#304;stifad&#601;&ccedil;il&#601;rin vasit&#601;sil&#601;
+Servis xidm&#601;tl&#601;rini &ouml;d&#601;y&#601;n &ouml;d&#601;m&#601;
+sisteml&#601;rinin i&#351;in&#601; g&ouml;r&#601; m&#601;suliyy&#601;t
+da&#351;&#305;m&#305;r. Pul vasit&#601;l&#601;rinin bu halda
+qaytar&#305;lmas&#305; haqq&#305;nda m&#601;s&#601;l&#601; f&#601;rdi qaydada
+h&#601;ll edilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.5.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Dig&#601;r
+hallarda Administrasiyan&#305;n q&#601;rar&#305; &uuml;zr&#601;.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.6.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Pul
+v&#601;saitl&#601;rin qaytar&#305;lma qaydas&#305; Administrasiya v&#601;
+&#304;stifad&#601;&ccedil;i aras&#305;nda h&#601;r konkret hal
+&uuml;&ccedil;&uuml;n m&uuml;&#601;yy&#601;n edilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4. Kommunikasiya</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+&#304;stifad&#601;&ccedil;il&#601;r&#601; onlar&#305;n
+t&#601;r&#601;find&#601;n g&ouml;st&#601;rilmi&#351; elektron po&ccedil;t
+&uuml;nvanlar&#305;na v&#601; ya telefon n&ouml;mr&#601;l&#601;rin&#601;
+elektron m&#601;ktublar&#305; v&#601;/v&#601; ya q&#305;sa
+x&#601;b&#601;rl&#601;ri (SMS mesajlar&#305;) g&ouml;nd&#601;rm&#601;k
+h&uuml;ququna malikdir. Servisin mesajlar&#305; Servisd&#601; d&#601;rc
+edil&#601; bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#399;lav&#601;
+olaraq &#304;stifad&#601;&ccedil;i anlay&#305;r, q&#601;bul edir v&#601;
+raz&#305;la&#351;&#305;r ki, bel&#601; m&#601;ktublarla v&#601; mesajlarla,
+lakin, m&#601;hdudla&#351;d&#305;r&#305;lmadan: ba&#351;qa &#304;stifad&#601;&ccedil;il&#601;rd&#601;n
+sazi&#351;in ba&#287;lanmas&#305; &uuml;zr&#601; t&#601;klifl&#601;r,
+t&#601;klifl&#601;r v&#601; ba&#351;qa informasiya v&#601;/v&#601; ya reklam
+xarakterli mesajlar v&#601; ba&#351;qa mesajlar ola bil&#601;r.
+&#304;stifad&#601;&ccedil;i anlay&#305;r, q&#601;bul edir v&#601;
+raz&#305;la&#351;&#305;r ki, bel&#601; mesajlar v&#601;/v&#601; ya onlar&#305;n
+ayr&#305; hiss&#601;l&#601;ri reklam xarakterin&#601; malik ola bil&#601;r,
+h&#601;m&ccedil;inin d&#601; &ouml;z&uuml;nd&#601; reklam, informasiya v&#601; ba&#351;qa
+elanlar&#305; saxlaya bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisd&#601;
+d&#601;rc edilmi&#351; mesajlar onlar&#305;n d&#601;rc edildiyi an&#305;ndan
+&#304;stifad&#601;&ccedil;iy&#601; &ccedil;atd&#305;r&#305;lm&#305;&#351; hesab
+edilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+ba&#351;qa &#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n
+istifad&#601;y&#601; v&#601;/v&#601; ya Servisd&#601; mesajlar&#305;n forma
+&uuml;zr&#601; yerl&#601;&#351;dirilmi&#351; avtomatla&#351;d&#305;r&#305;lm&#305;&#351;
+sisteml&#601;rl&#601; (robotlarla) g&ouml;nd&#601;rilm&#601;sin&#601;
+g&ouml;r&#601; m&#601;suliyy&#601;t da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+ba&#351;qa &#304;stifad&#601;&ccedil;il&#601;r v&#601;/v&#601; ya
+robotlar&#305; t&#601;r&#601;find&#601;n Servisin
+s&#601;hif&#601;l&#601;rind&#601; &#304;stifad&#601;&ccedil;i
+t&#601;r&#601;find&#601;n yerl&#601;&#351;dirilmi&#351; telefon
+n&ouml;mr&#601;l&#601;rind&#601;n v&#601; elektron &uuml;nvanlar&#305;ndan
+istifad&#601;y&#601; g&ouml;r&#601; m&#601;suliyy&#601;t
+da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.6.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+t&#601;sdiql&#601;yir ki, Administrasiya
+&#304;stifad&#601;&ccedil;il&#601;r&#601; m&#601;ktub v&#601; mesajlar&#305;
+g&ouml;nd&#601;rm&#601;k m&#601;qs&#601;dl&#601;ri &uuml;&ccedil;&uuml;n
+elektron po&ccedil;t &uuml;nvanlar&#305;n&#305; v&#601; telefon
+n&ouml;mr&#601;l&#601;rini &uuml;&ccedil;&uuml;nc&uuml;
+&#351;&#601;xsl&#601;r&#601; verm&#601;k h&uuml;ququna malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.7.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;inin
+Administrasiya v&#601; ya Servisin moderatorlar&#305; il&#601;
+yaz&#305;&#351;mas&#305; &uuml;nvan&#305; Servisd&#601;
+g&ouml;st&#601;ril&#601;n elektron po&ccedil;t qutusunun k&ouml;m&#601;yi
+il&#601; h&#601;yata ke&ccedil;irilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.8.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;iy&#601;
+Servisd&#601; moderatorlar&#305;n v&#601; Administrasiyan&#305;n
+h&#601;r&#601;k&#601;tl&#601;ri haqq&#305;nda &#351;&#601;rhl&#601;r,
+m&uuml;zakir&#601;l&#601;r v&#601; ba&#351;qa yaz&#305;lar&#305; qoymaq
+qada&#287;and&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>4.9.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+m&uuml;vafiq sor&#287;unu g&ouml;nd&#601;rib &ouml;z telefon
+n&ouml;mr&#601;sin&#601; v&#601; ya elektron &uuml;nvana mesajlar&#305;n
+al&#305;nmas&#305;ndan ist&#601;nil&#601;n vaxt imtina ed&#601; bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>5. Proqram t&#601;minat&#305;</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>5.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+sayt&#305;n yerl&#601;&#351;dirildiyi domen ad&#305;n&#305;n, sayt&#305;n
+&ouml;z&uuml;n&uuml;n, mobil &#601;lav&#601;l&#601;rin, h&#601;m&ccedil;inin
+b&uuml;t&uuml;n Servis v&#601; Servisin b&uuml;t&uuml;n proqram
+t&#601;minat&#305;n&#305;n x&uuml;susi sahibkar&#305;d&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>5.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Proqram
+t&#601;minat&#305;n&#305;n y&uuml;kl&#601;m&#601;si zaman&#305; Administrasiya
+&#304;stifad&#601;&ccedil;iy&#601; proqram t&#601;minat&#305;ndan istifad&#601;
+&uuml;&ccedil;&uuml;n, onun &uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;r&#601;
+verilm&#601;si h&uuml;ququ olmadan, &#351;&#601;xsi pulsuz adi lisenziyan&#305;
+verir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>5.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+funksiyalar&#305;na &#601;sas&#601;n bel&#601; lisenziya istisna olaraq
+&#304;stifad&#601;&ccedil;iy&#601; Servisin xidm&#601;tl&#601;rind&#601;n
+istifad&#601; imkan&#305;n&#305;n verilm&#601;si v&#601; onlardan
+xeyirl&#601;rin al&#305;nmas&#305; &uuml;&ccedil;&uuml;n n&#601;z&#601;rd&#601;
+tutulmu&#351;dur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>5.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;(Servisin)
+Administrasiyan&#305;n (o c&uuml;ml&#601;d&#601;n proqram
+t&#601;minat&#305;n&#305;n) intellektual m&uuml;lkiyy&#601;ti
+obyektl&#601;rinin sur&#601;tini &ccedil;&#305;xar&#305;lmas&#305;,
+d&#601;yi&#351;dirilm&#601;si, payla&#351;mas&#305;, sat&#305;lmas&#305;
+(realizasiya edilm&#601;si), m&uuml;badil&#601; edilm&#601;si v&#601; ya
+tamamil&#601; v&#601; ya h&#601;r hans&#305; hiss&#601;sinin icar&#601;y&#601;
+verilm&#601;si, h&#601;m&ccedil;inin d&#601; Administrasiyan&#305;n
+yaz&#305;l&#305; icaz&#601;si olmadan proqram t&#601;minat&#305;n&#305;n
+m&#601;nb&#601; kodunun &quot;s&#305;nd&#305;r&#305;lmas&#305;&quot; v&#601; ya
+al&#305;nmas&#305;na c&#601;hd edilm&#601;si qada&#287;an edilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6. M&#601;suliyy&#601;tin
+m&#601;hdudla&#351;d&#305;r&#305;lmas&#305;</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisd&#601;
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n
+g&ouml;st&#601;rilmi&#351; B&uuml;t&uuml;n informasiya (o
+c&uuml;ml&#601;d&#601;n &#351;&#601;xsi m&#601;lumatlar),
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n onun &#399;mlak&#305;n
+sat&#305;lmas&#305; (realizasiyas&#305;) &uuml;&ccedil;&uuml;n
+yerl&#601;&#351;dirilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+&ouml;z&uuml; haqq&#305;nda bu v&#601; ya dig&#601;r informasiyan&#305; ancaq
+&ouml;z maraqlar&#305;nda, o c&uuml;ml&#601;d&#601;n
+&#304;stifad&#601;&ccedil;i il&#601; &#601;laq&#601;nin qurulmas&#305;n&#305;n
+sad&#601;l&#601;&#351;dirilm&#601;si v&#601;/v&#601; ya
+&#304;stifad&#601;&ccedil;inin eynil&#601;&#351;dirm&#601;si
+&uuml;&ccedil;&uuml;n yerl&#601;&#351;dirir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&Ouml;z&uuml;
+haqq&#305;nda informasiyan&#305; yerl&#601;&#351;dir&#601;r&#601;k,
+&#304;stifad&#601;&ccedil;i anlay&#305;r v&#601; onunla
+raz&#305;la&#351;&#305;r ki, bel&#601; informasiya Servisd&#601;
+a&ccedil;&#305;q giri&#351;d&#601; yerl&#601;&#351;dirilir, y&#601;ni
+tan&#305;&#351; olma &uuml;&ccedil;&uuml;n ist&#601;nil&#601;n
+m&uuml;&#351;t&#601;riy&#601; v&#601; ya Servisin
+&#304;stifad&#601;&ccedil;il&#601;rin&#601; m&uuml;mk&uuml;nd&uuml;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+informasiyan&#305;n bel&#601; yerl&#601;&#351;dirilm&#601;si il&#601;
+ba&#287;l&#305; b&uuml;t&uuml;n riskl&#601;ri anlay&#305;r v&#601;
+&ouml;z&uuml;n&#601; q&#601;bul edir, o c&uuml;ml&#601;d&#601;n, daxil
+etm&#601;kl&#601;, amma m&#601;hdudla&#351;d&#305;r&#305;lmadan: spam -
+mesajlar&#305;n g&ouml;nd&#601;rilm&#601;si &uuml;&ccedil;&uuml;n
+siyah&#305;lara elektron po&ccedil;t &uuml;nvan&#305;n&#305;n
+d&uuml;&#351;m&#601;si riski, elektron po&ccedil;t &uuml;nvan&#305;n&#305;n
+m&uuml;xt&#601;lif n&ouml;v d&#601;l&#601;duzlara d&uuml;&#351;m&#601;si riski,
+telefon n&ouml;mr&#601;sinin SMS-spamerl&#601;r&#601; v&#601;/v&#601; ya
+SMS-d&#601;l&#601;duzlara d&uuml;&#351;m&#601;si riski v&#601; informasiyan&#305;n
+bel&#601; yerl&#601;&#351;dirm&#601;sind&#601;n ir&#601;li g&#601;l&#601;n
+ba&#351;qa riskl&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+&#399;mlak bar&#601;sind&#601; sazi&#351;l&#601;rin
+t&#601;&#351;kilat&ccedil;&#305;s&#305;, vasit&#601;&ccedil;isi,
+al&#305;c&#305;s&#305; v&#601; ya sat&#305;c&#305;s&#305; deyildir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.6.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+Servisin &#304;stifad&#601;&ccedil;il&#601;ri t&#601;r&#601;find&#601;n
+sazi&#351;l&#601;rin ba&#287;lanmas&#305;na v&#601; icras&#305;na (h&#601;yata
+ke&ccedil;irilm&#601;sin&#601;), sazi&#351;l&#601;rin ba&#287;lanmas&#305;
+n&#601;tic&#601;sind&#601; vurulmu&#351; ziyana, itmi&#351;
+xeyirl&#601;r&#601;, g&#601;lirl&#601;r&#601;, maliyy&#601;
+z&#601;r&#601;rl&#601;rin&#601; v&#601; ya vasit&#601;li, faktiki, k&#601;nar
+v&#601; ya c&#601;rim&#601; z&#601;r&#601;rl&#601;rin&#601;,
+h&#601;m&ccedil;inin h&#601;r hans&#305; &#351;&#601;xsin qanunsuz
+&#601;m&#601;ll&#601;ri n&#601;tic&#601;sind&#601;, g&ouml;r&#601;
+m&#601;suliyy&#601;t da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.7.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+xidm&#601;tl&#601;rind&#601;n istifad&#601; edib, &#304;stifad&#601;&ccedil;i
+onunla &ouml;z raz&#305;l&#305;&#287;&#305;n&#305; t&#601;sdiql&#601;yir ki, o
+Servisd&#601;n m&#601;suliyy&#601;ti &ouml;z &uuml;z&#601;rin&#601; g&ouml;t&uuml;r&#601;r&#601;k
+istifad&#601; edir, Servisd&#601; yerl&#601;&#351;dirilmi&#351; elanlar&#305;n
+istifad&#601;si il&#601; ba&#287;l&#305; b&uuml;t&uuml;n riskl&#601;ri
+da&#351;&#305;y&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.8.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+&#304;stifad&#601;&ccedil;il&#601;r&#601; realizasiyas&#305;
+(sat&#305;&#351;&#305;) v&#601;/v&#601; ya &#601;ld&#601; edilm&#601;si
+qanunla, haz&#305;rk&#305; Raz&#305;la&#351;ma il&#601; v&#601; Servisd&#601;n
+istifad&#601;nin ba&#351;qa qaydalar&#305; il&#601; icaz&#601; verilmi&#351;
+&#399;mlaklar bar&#601;sind&#601; elanlar&#305; yerl&#601;&#351;dirm&#601;k
+imkan&#305; ver&#601;n al&#601;tdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.9.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+&#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n
+yerl&#601;&#351;dirilmi&#351; elanlar&#305; h&#601;mi&#351;&#601;
+yoxlam&#305;r, n&#601;tic&#601;d&#601;, keyfiyy&#601;t,
+t&#601;hl&uuml;k&#601;sizlik, qanunilik v&#601; &#601;mlak&#305;n onun
+t&#601;svirin&#601; uy&#287;unlu&#287;u, h&#601;m&ccedil;inin d&#601;
+sat&#305;c&#305;n&#305;n &#601;mlak&#305; satmaq v&#601;
+al&#305;c&#305;s&#305;n&#305;n &#601;ld&#601; etm&#601;k imkan&#305;
+Xidm&#601;tin kontrolundan k&#601;nardad&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.10.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+&#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n elanlarda
+yerl&#601;&#351;diril&#601;n informasiyan&#305;n
+etibarl&#305;l&#305;&#287;&#305;na n&#601;zar&#601;t ed&#601; bilmir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.11.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis,
+onun Administrasiyas&#305;, r&#601;hb&#601;rlik v&#601;
+&#601;m&#601;kda&#351;lar, Servisd&#601; yerl&#601;&#351;dirilmi&#351;
+elanlar&#305;n m&#601;zmununa, h&#601;m&ccedil;inin onlar&#305;n
+etibarl&#305;l&#305;&#287;&#305;na g&ouml;r&#601; he&ccedil; bir
+m&#601;suliyy&#601;t da&#351;&#305;m&#305;rlar.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.12.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya,
+onun r&#601;hb&#601;rliyi v&#601; &#601;m&#601;kda&#351;lar,
+ist&#601;nil&#601;n x&#601;b&#601;rl&#601;rin (o c&uuml;ml&#601;d&#601;n,
+&#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n po&ccedil;t
+qutusuna v&#601;/v&#601; ya mobil telefona al&#305;nan), m&#601;zmununa
+g&ouml;r&#601;, h&#601;m&ccedil;inin d&#601;
+&#304;stifad&#601;&ccedil;il&#601;rin &#601;laq&#601;
+m&#601;lumatlar&#305;n&#305;n ba&#351;qa istifad&#601;sin&#601; g&ouml;r&#601;,
+he&ccedil; bir m&#601;suliyy&#601;t da&#351;&#305;m&#305;rlar.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.13.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+anlay&#305;r ki, Servisd&#601; elan&#305;n yerl&#601;&#351;dirilm&#601;si
+fakt&#305; onun z&#601;man&#601;ti deyil ki, h&#601;r hans&#305; Mal&#305;n
+t&#601;klifi, sat&#305;lmas&#305; v&#601;/v&#601; ya &#601;ld&#601;
+edilm&#601;si h&#601;qiqidir v&#601; qanunidir. Sazi&#351;in h&#601;yata
+ke&ccedil;irilm&#601;si haqq&#305;nda q&#601;rar&#305;
+&#304;stifad&#601;&ccedil;i s&#601;rb&#601;st olaraq q&#601;bul edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.14.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Qanunvericilikl&#601;
+icaz&#601; verilmi&#351; d&#601;r&#601;c&#601;d&#601;, Servisin
+ist&#601;nil&#601;n iddialar &uuml;zr&#601; &uuml;mumi m&#601;suliyy&#601;ti
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n Servisin
+xidm&#601;tl&#601;rind&#601;n istifad&#601;sin&#601; g&ouml;r&#601; v&#601; ya
+(Servisin m&uuml;lahiz&#601;sin&#601; g&ouml;r&#601;) bu xidm&#601;tl&#601;rin
+&#304;stifad&#601;&ccedil;iy&#601; t&#601;krar verilm&#601;si il&#601;
+&ouml;d&#601;nmi&#351; m&#601;bl&#601;&#287; il&#601;
+m&#601;hdudla&#351;d&#305;r&#305;l&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.15.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+raz&#305;la&#351;&#305;r ki, &#304;stifad&#601;&ccedil;inin v&#601; ba&#351;qa
+&#304;stifad&#601;&ccedil;il&#601;rin v&#601;/v&#601; ya Servisin
+m&uuml;&#351;t&#601;ril&#601;ri aras&#305;ndak&#305; b&uuml;t&uuml;n
+m&uuml;bahis&#601;l&#601;r (o c&uuml;ml&#601;d&#601;n sazi&#351;l&#601;rin
+h&#601;yata ke&ccedil;irilm&#601;si n&#601;tic&#601;sind&#601;)
+&#304;stifad&#601;&ccedil;i Administrasiyan&#305; c&#601;lb etm&#601;d&#601;n
+s&#601;rb&#601;st h&#601;ll edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.16.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+Servisin xidm&#601;tl&#601;rin&#601; &uuml;&ccedil;&uuml;nc&uuml;
+&#351;&#601;xsl&#601;rin Administrasiyan&#305;n raz&#305;l&#305;&#287;&#305;
+(icaz&#601;si) v&#601;/v&#601; ya m&#601;lumat&#305; olmadan h&#601;yata
+ke&ccedil;irilmi&#351; ist&#601;nil&#601;n giri&#351;in&#601; v&#601;/v&#601;
+ya &#304;stifad&#601;&ccedil;il&#601;r haqq&#305;nda ist&#601;nil&#601;n
+informasiyaya g&ouml;r&#601; (o c&uuml;ml&#601;d&#601;n &#351;&#601;xsi
+m&#601;lumatlar), m&#601;suliyy&#601;t da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.17.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+onunla raz&#305;d&#305;r ki, Administrasiya &#304;stifad&#601;&ccedil;i
+qar&#351;&#305;s&#305;nda Servisin ist&#601;nil&#601;n m&#601;zmunu il&#601;
+ba&#287;l&#305; v&#601;/v&#601; ya &#304;stifad&#601;&ccedil;i
+t&#601;r&#601;find&#601;n h&#601;yata ke&ccedil;irilmi&#351; sazi&#351;l&#601;r
+n&#601;tic&#601;sind&#601; ist&#601;nil&#601;n m&uuml;mk&uuml;n v&#601; ya
+yaranm&#305;&#351; itkil&#601;rl&#601; v&#601; ya
+z&#601;r&#601;rl&#601;rl&#601; &#601;laq&#601;dar, m&uuml;&#601;llif
+h&uuml;quqlar&#305;n&#305;n qeydiyyat&#305; il&#601; v&#601; bel&#601;
+qeydiyyat haqq&#305;nda m&#601;lumatlarla, Servisd&#601; m&uuml;mk&uuml;n olan
+mallarla v&#601; ya xidm&#601;tl&#601;rl&#601; v&#601; ya
+&#304;stifad&#601;&ccedil;inin Servisd&#601; yerl&#601;&#351;dirilmi&#351;
+informasiyadan istifad&#601; ed&#601;r&#601;k daxil oldu&#287;u ba&#351;qa
+&#601;laq&#601;l&#601;ri il&#601;, m&#601;suliyy&#601;t da&#351;&#305;m&#305;r
+v&#601; birba&#351;a v&#601; ya dolay&#305; &ouml;hd&#601;likl&#601;r&#601;
+malik deyildir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.18.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+Servis&#601; &ouml;t&uuml;r&uuml;l&#601; bil&#601;n v&#601; ya Servis
+vasit&#601;sil&#601; &uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;r
+t&#601;r&#601;find&#601;n &ccedil;atd&#305;r&#305;la bil&#601;n
+ist&#601;nil&#601;n proqram nasazl&#305;qlar&#305;, s&#305;n&#305;qlar v&#601;
+ba&#351;qa texniki v&#601; proqram nasazl&#305;qlar&#305;na g&ouml;r&#601;,
+h&#601;m&ccedil;inin s&#601;hvl&#601;r&#601;, proqram viruslar&#305;na, v&#601;
+s. g&ouml;r&#601; m&#601;suliyy&#601;t da&#351;&#305;m&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.19.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+yaln&#305;z q&uuml;vv&#601;d&#601; olan qanunvericiliy&#601; v&#601;
+haz&#305;rk&#305; Raz&#305;la&#351;maya uy&#287;un olaraq
+h&#601;r&#601;k&#601;t etm&#601;yi, h&#601;m&ccedil;inin qanunvericiliy&#601;
+uy&#287;un olaraq Servisd&#601; v&#601; Servisin xidm&#601;tl&#601;rind&#601;n
+istifad&#601; vaxt&#305; &#351;&#601;xsi h&#601;r&#601;k&#601;tl&#601;rin&#601;
+v&#601; f&#601;aliyy&#601;tsizliyin&#601; g&ouml;r&#601; tam
+m&#601;suliyy&#601;t da&#351;&#305;ma&#287;&#305; &ouml;hd&#601;sin&#601;
+g&ouml;t&uuml;r&uuml;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>6.20.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+&#304;stifad&#601;&ccedil;isinin ba&#351;qa &#304;stifad&#601;&ccedil;isi
+t&#601;r&#601;find&#601;n h&uuml;quqlar&#305;n&#305;n pozuldu&#287;u halda
+(intellektual m&uuml;lkiyy&#601;t obyektinin qanunsuz istifad&#601;si v&#601;
+sair), &#304;stifad&#601;&ccedil;i, kimin ki h&uuml;quqlar pozulmu&#351;dur,
+m&uuml;vafiq &#351;ikay&#601;t il&#601; Administrasiyaya v&#601; ya
+moderatorlara m&uuml;raci&#601;t ed&#601; bil&#601;r. Administrasiya
+&#351;ikay&#601;t&#601; baxma&#287;&#305; v&#601;, onun &#601;sasl&#305;
+oldu&#287;u halda, &#304;stifad&#601;&ccedil;inin h&uuml;quqlar&#305;n&#305;n
+pozulmas&#305;n&#305;n dayand&#305;r&#305;lmas&#305; t&#601;dbirl&#601;r
+g&ouml;rm&#601;yi &ouml;hd&#601;sin&#601; g&ouml;t&uuml;r&uuml;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>7. &#304;stifad&#601;
+qaydalar&#305;n&#305;n h&#601;r&#601;k&#601;t m&uuml;dd&#601;ti</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>7.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Haz&#305;rk&#305;
+raz&#305;la&#351;ma &#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n Servisin
+xidm&#601;tl&#601;rind&#601;n istifad&#601;sinin ba&#351;lan&#287;&#305;c&#305;
+an&#305;ndan q&uuml;vv&#601;y&#601; minir, Servisd&#601;
+&#304;stifad&#601;&ccedil;inin qeydiyyat&#305; v&#601; ya elan&#305;n
+yerl&#601;&#351;dirilm&#601;si fakt&#305;ndan as&#305;l&#305; olmayaraq,
+v&#601; m&uuml;dd&#601;tsiz q&uuml;vv&#601;d&#601;dir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>7.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+ist&#601;nil&#601;n vaxt &ouml;z&uuml;n&uuml;n Servisin
+xidm&#601;tl&#601;rind&#601;n istifad&#601; h&uuml;ququnu dayand&#305;rmaq
+h&uuml;ququna malikdir. Bundan sonra &#304;stifad&#601;&ccedil;i yeni
+Elanlar&#305; yerl&#601;&#351;dirm&#601;k h&uuml;ququna malik deyildir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>7.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+&#351;&#601;xsi m&uuml;lahiz&#601; &uuml;zr&#601;
+&#304;stifad&#601;&ccedil;inin giri&#351;ini dayand&#305;rmaq h&uuml;ququna
+malikdir. Xidm&#601;tl&#601;r&#601; giri&#351;i dayand&#305;r&#305;lan v&#601;
+ya m&#601;lumatlar&#305; h&#601;qiqi olmayan &#304;stifad&#601;&ccedil;i
+Administrasiyan&#305;n x&uuml;susi icaz&#601;si olmadan t&#601;krar
+qeydiyyatdan ke&ccedil;m&#601;k h&uuml;quqlar&#305;na malik deyil,
+h&#601;m&ccedil;inin bel&#601; &#304;stifad&#601;&ccedil;i Servis&#601; giri&#351;
+&uuml;&ccedil;&uuml;n ba&#351;qa &#304;stifad&#601;&ccedil;inin qeydiyyat
+m&#601;lumatlar&#305;ndan istifad&#601; etm&#601;k h&uuml;quqlar&#305;na malik
+deyildir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8. Dig&#601;r
+&#351;&#601;rtl&#601;r</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;M&uuml;bahis&#601;l&#601;rin
+yarand&#305;&#287;&#305; halda haz&#305;rk&#305; Raz&#305;la&#351;man&#305;n
+t&#601;r&#601;fl&#601;ri onlar&#305; dan&#305;&#351;&#305;qlar yolu il&#601;
+h&#601;ll etm&#601;yi &ouml;hd&#601;sin&#601; g&ouml;t&uuml;r&uuml;rl&#601;r.
+Haz&#305;rk&#305; Raz&#305;la&#351;man&#305;n v&#601; Servis
+xidm&#601;tl&#601;rinin verilm&#601;sinin icras&#305; zaman&#305; yaranan
+m&uuml;bahis&#601;l&#601;r q&uuml;vv&#601;d&#601; olan qanunvericiliy&#601;
+uy&#287;un olaraq h&#601;ll edilm&#601;lidir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;B&uuml;t&uuml;n
+m&uuml;bahis&#601;l&#601;r&#601; dair Az&#601;rbaycan&#305;n qanunvericiliyi
+t&#601;tbiq edilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+birt&#601;r&#601;fli qaydada v&#601; &#304;stifad&#601;&ccedil;il&#601;r&#601;
+bildirm&#601;d&#601;n haz&#305;rk&#305; Raz&#305;la&#351;man&#305;
+d&#601;yi&#351;dirm&#601;k h&uuml;ququna malikdir. Raz&#305;la&#351;man&#305;n
+yeni redaksiyas&#305; Servisd&#601; d&#601;rc edilm&#601;si tarixind&#601;n
+q&uuml;vv&#601;y&#601; minir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Raz&#305;la&#351;mada
+he&ccedil; n&#601; &#304;stifad&#601;&ccedil;i v&#601; Administrasiya
+aras&#305;nda agent m&uuml;nasib&#601;tl&#601;rinin,
+Yolda&#351;l&#305;&#287;&#305;n m&uuml;nasib&#601;tl&#601;rinin, birg&#601;
+f&#601;aliyy&#601;t &uuml;zr&#601; m&uuml;nasib&#601;tl&#601;r, &#351;&#601;xsi
+i&#351;&#601;g&ouml;t&uuml;rm&#601;nin m&uuml;nasib&#601;tl&#601;rinin, v&#601;
+ya Raz&#305;la&#351;ma il&#601; birba&#351;a n&#601;z&#601;rd&#601;
+tutulmam&#305;&#351; h&#601;r hans&#305; bir ba&#351;qa
+m&uuml;nasib&#601;tl&#601;rin m&uuml;&#601;yy&#601;n edilm&#601;si kimi
+anla&#351;&#305;la v&#601; izah edil&#601; bilm&#601;z.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;M&#601;hk&#601;m&#601;
+t&#601;r&#601;find&#601;n Raz&#305;la&#351;man&#305;n h&#601;r hans&#305;
+m&uuml;dd&#601;as&#305;n&#305;n etibars&#305;z v&#601; ya m&#601;cburi icraya
+aid olmayan kimi tan&#305;nmas&#305; Raz&#305;la&#351;man&#305;n ba&#351;qa
+m&uuml;dd&#601;alar&#305;n&#305;n etibars&#305;z olmas&#305; il&#601;
+n&#601;tic&#601;l&#601;nmir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8.6.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Raz&#305;la&#351;man&#305;n
+m&uuml;dd&#601;alar&#305;n&#305;n &#304;stifad&#601;&ccedil;il&#601;rind&#601;n
+h&#601;r hans&#305; biri t&#601;r&#601;find&#601;n pozulmas&#305; hal&#305;nda
+Administrasiya t&#601;r&#601;find&#601;n f&#601;aliyy&#601;tsizlik daha sonra
+Administrasiyan&#305; &ouml;z maraqlar&#305;n&#305;n v&#601;
+h&uuml;quqlar&#305;n&#305;n m&uuml;dafi&#601;sin&#601; uy&#287;un olan
+h&#601;r&#601;k&#601;tl&#601;ri t&#601;&#351;&#601;bb&uuml;s etm&#601;k
+h&uuml;ququndan m&#601;hrum etmir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>8.7.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Haz&#305;rk&#305;
+Raz&#305;la&#351;ma il&#601; n&#601;z&#601;rd&#601; tutulmam&#305;&#351;
+b&uuml;t&uuml;n ba&#351;qa &#351;&#601;rtl&#601;r v&#601;
+&#351;&#601;raitl&#601;r, ayr&#305; f&#601;rdi qaydada t&#601;nziml&#601;nir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>&#304;stifad&#601;&ccedil;i
+t&#601;sdiql&#601;yir ki, haz&#305;rk&#305; Raz&#305;la&#351;man&#305;n
+b&uuml;t&uuml;n b&#601;ndl&#601;ri il&#601; tan&#305;&#351; edilmi&#351;dir
+v&#601; onlar&#305; s&ouml;zs&uuml;z tam h&#601;cmd&#601; q&#601;bul edir.</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><span style='font-size:10.5pt;font-family:
+"Arial","sans-serif";color:#727272'>&#399;lav&#601;l&#601;r:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#399;lav&#601;
+¹ 1</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><span lang=RU><a href="https://azev.az"><b><span
+lang=EN-US style='font-size:10.5pt;font-family:"Arial","sans-serif"'>https://azev.az</span></b></a></span><b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+Raz&#305;la&#351;mas&#305;na dair &#399;lav&#601; ¹ 1</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1. M&#601;xfilik siyas&#601;ti</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Haz&#305;rk&#305;
+m&#601;xfilik Siyas&#601;ti&nbsp;</span><span lang=RU><a href="https://azev.az"><span
+lang=EN-US style='font-size:10.5pt;font-family:"Arial","sans-serif"'>https://azev.az</span></a></span><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+&#304;stifad&#601;&ccedil;i Raz&#305;la&#351;mas&#305;n&#305;n ayr&#305;lmaz
+hiss&#601;sidir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Haz&#305;rk&#305;
+m&#601;xfilik Siyas&#601;ti &#304;stifad&#601;&ccedil;inin &#351;&#601;xsi
+m&#601;lumatlar&#305;n&#305;n almas&#305;, saxlamas&#305;,
+i&#351;l&#601;nm&#601;si, istifad&#601;si, a&ccedil;&#305;lmas&#305; v&#601;
+m&uuml;dafi&#601;si qaydas&#305;n&#305; m&uuml;&#601;yy&#601;n edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;il&#601;rin
+&#351;&#601;xsi m&#601;lumat bazas&#305; Administrasiyan&#305;n
+&uuml;nvan&#305; &uuml;zr&#601; yerl&#601;&#351;ir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#350;&#601;xsi
+m&#601;lumatlar Bazas&#305;n&#305;n s&#601;r&#601;ncam&ccedil;&#305;s&#305;
+Administrasiyad&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Elan&#305;n
+d&#601;rc edilm&#601;si &uuml;&ccedil;&uuml;n forman&#305; dolduran zaman
+v&#601; ya Servisd&#601; &#304;stifad&#601;&ccedil;inin qeydiyyat&#305;
+zaman&#305;, v&#601; ya g&ouml;nd&#601;rm&#601;l&#601;r&#601; abun&#601;
+yaz&#305;lma zaman&#305;, h&#601;m&ccedil;inin d&#601; Servisd&#601;n istifad&#601;nin
+ba&#351;qa hallar&#305;nda, &#304;stifad&#601;&ccedil;i Administrasiyaya
+m&#601;lumatlar&#305; v&#601; &#351;&#601;xsi m&#601;lumatlar&#305; verir.
+M&#601;lumat&#305;n toplanmas&#305; h&#601;m&ccedil;inin Servisin
+&#304;stifad&#601;&ccedil;il&#601;rinin sor&#287;ular&#305;n&#305;n
+ke&ccedil;irilm&#601;si yolu il&#601; h&#601;yata ke&ccedil;iril&#601;
+bil&#601;r. &#304;stifad&#601;&ccedil;il&#601;rin sor&#287;ular&#305;nda
+i&#351;tirak &#304;stifad&#601;&ccedil;il&#601;r icaz&#601;si il&#601;
+h&#601;yata ke&ccedil;irilir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.6.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+Servis&#601; &ouml;z&uuml; haqq&#305;nda &#351;&#601;xsi m&#601;lumatlar&#305;n
+v&#601; ist&#601;nil&#601;n ba&#351;qa informasiyan&#305;n verilm&#601;si
+haqq&#305;nda s&#601;rb&#601;st v&#601; k&ouml;n&uuml;ll&uuml; q&#601;rar
+q&#601;bul edir, h&#601;m&ccedil;inin d&#601; bununla bel&#601; &#351;&#601;xsi
+m&#601;lumatlar&#305;n v&#601; informasiyan&#305;n Administrasiya
+t&#601;r&#601;find&#601;n i&#351;l&#601;nm&#601;sin&#601;,
+i&#351;l&#601;nm&#601;si &uuml;&ccedil;&uuml;n onlar&#305;n
+Administrasiyan&#305;n tap&#351;&#305;r&#305;&#287;&#305; il&#601;
+h&#601;r&#601;k&#601;t ed&#601;n ba&#351;qa &#304;stifad&#601;&ccedil;il&#601;r&#601;
+v&#601;/v&#601; ya &uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;r&#601;
+&ouml;t&uuml;r&uuml;lm&#601;sin&#601; &ouml;z
+raz&#305;l&#305;&#287;&#305;n&#305; bildirir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.7.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#350;&#601;xsi
+m&#601;lumatlar&#305;n i&#351;l&#601;nm&#601;si ist&#601;nil&#601;n
+h&#601;r&#601;k&#601;t v&#601; ya h&#601;r&#601;k&#601;tl&#601;rin toplanma,
+qeydiyyat, y&#305;&#287;&#305;m, saxlama, uy&#287;unla&#351;ma,
+d&#601;yi&#351;iklik, yenil&#601;m&#601;, istifad&#601; v&#601; yay&#305;lma
+kimi m&#601;cmusudur (yay&#305;lma, realla&#351;d&#305;rma,
+&ouml;t&uuml;r&uuml;lm&#601;, h&#601;m&ccedil;inin xaric&#601;) v&#601;
+&#351;&#601;xsi m&#601;lumatlar&#305;n, h&#601;m&ccedil;inin informasiya
+(avtomatla&#351;d&#305;r&#305;lm&#305;&#351;) sisteml&#601;rinin
+istifad&#601;si il&#601; m&#601;hv edilm&#601;sidir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.8.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#350;&#601;xsi
+m&#601;lumatlar&#305;n i&#351;l&#601;nm&#601;sinin m&#601;qs&#601;dl&#601;ri, o
+c&uuml;ml&#601;d&#601;n, a&#351;a&#287;&#305;dak&#305;lard&#305;r:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.8.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin,
+onun servisl&#601;rinin v&#601; xidm&#601;tl&#601;rinin f&#601;aliyy&#601;tinin
+yax&#351;&#305;la&#351;mas&#305; &uuml;&ccedil;&uuml;n statistik v&#601;
+analitik m&#601;lumatlar&#305;n al&#305;nmas&#305;;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.8.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;g&ouml;st&#601;ril&#601;n
+xidm&#601;tl&#601;rin spektrinin geni&#351;l&#601;ndirilm&#601;si;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.8.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+v&#601; ya &uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;rin informasiya
+v&#601; ya reklam x&#601;b&#601;rl&#601;rinin al&#305;nmas&#305; (yeni
+imkanlar, aksiyalar v&#601; ba&#351;qa x&#601;b&#601;rl&#601;r haqq&#305;nda
+x&#601;b&#601;rdarl&#305;q);</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.8.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;il&#601;rin
+v&#601; ya &uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;rin qanunsuz
+v&#601; ya icaz&#601;siz h&#601;r&#601;k&#601;tl&#601;rinin
+x&#601;b&#601;rdarl&#305;&#287;&#305; v&#601; qaba&#287;&#305;n&#305;n
+al&#305;nmas&#305;;</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.8.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Q&uuml;vv&#601;d&#601;
+olan qanunvericiliyin t&#601;l&#601;bl&#601;rin&#601; riay&#601;tin
+t&#601;minat&#305;.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.9.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+&#304;stifad&#601;&ccedil;il&#601;r haqq&#305;nda n&ouml;vb&#601;ti
+informasiyan&#305; toplay&#305;r:</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.9.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisd&#601;n
+istifad&#601; zaman&#305; Administrasiyaya &#304;stifad&#601;&ccedil;inin daxil
+etdiyi &#351;&#601;xsi informasiyan&#305; g&ouml;st&#601;rir v&#601; ya
+ba&#351;qa &uuml;sulla a&ccedil;&#305;r. Bel&#601; informasiya, x&uuml;susi
+halda (lakin, m&#601;hdudla&#351;d&#305;r&#305;lmadan),
+&#304;stifad&#601;&ccedil;inin ad&#305; v&#601; soyad&#305;, elektron po&ccedil;t
+&uuml;nvan&#305; v&#601; parolu, telefon n&ouml;mr&#601;si,
+&#304;stifad&#601;&ccedil;inin yerl&#601;&#351;diyi yer, h&#601;m&ccedil;inin
+&uuml;nvan&#305; ola bil&#601;r. &#399;g&#601;r &#304;stifad&#601;&ccedil;i
+sosial &#351;&#601;b&#601;k&#601;nin profili vasit&#601;sil&#601; daxil olursa,
+Servis h&#601;m&ccedil;inin bel&#601; sosial &#351;&#601;b&#601;k&#601;nin
+profilind&#601; yerl&#601;&#351;dirilmi&#351; informasiyan&#305; toplaya
+bil&#601;r. &#304;stifad&#601;&ccedil;i ona verilmi&#351; informasiyaya
+g&ouml;r&#601; m&#601;suliyy&#601;t da&#351;&#305;y&#305;r, halbuki Servis
+&#304;nternetd&#601; &#304;stifad&#601;&ccedil;inin m&#601;lumatlar&#305;n&#305;n
+yay&#305;lmas&#305; v&#601; d&#601;rc edilm&#601;si &uuml;&ccedil;&uuml;n
+kanal&#305; verir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.9.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin,
+ona giri&#351; zaman&#305;, proqram t&#601;minat&#305;
+t&#601;r&#601;find&#601;n avtomatik toplanan texniki informasiya.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.10.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis,
+h&#601;m&ccedil;inin d&#601; Administrasiya, irqi v&#601; ya etnik
+m&#601;n&#351;&#601; haqq&#305;nda m&#601;lumatlar&#305;, siyasi, dini v&#601;
+d&uuml;nyag&ouml;r&uuml;&#351;&uuml; m&#601;sl&#601;kl&#601;r, siyasi
+partiyalara v&#601; h&#601;mkarlar ittifaqlar&#305;na &uuml;zvl&uuml;k,
+cinay&#601;t c&#601;zas&#305;na m&#601;hkumluqlar, h&#601;m&ccedil;inin d&#601;
+sa&#287;laml&#305;&#287;a, cinsiyy&#601;t h&#601;yat&#305;na aid olan
+m&#601;lumatlar&#305;, biometrik v&#601; ya genetik m&#601;lumatlar&#305;
+toplam&#305;r v&#601; i&#351;l&#601;mir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.11.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+v&#601; Administrasiya Servis&#601; aidiyy&#601;ti olmayan
+&uuml;&ccedil;&uuml;nc&uuml; &#351;&#601;xsl&#601;r&#601;
+&#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n t&#601;qdim
+edilmi&#351; he&ccedil; bir &#351;&#601;xsi v&#601; ya ba&#351;qa m&#601;lumatlar&#305;,
+&#304;stifad&#601;&ccedil;inin bel&#601; icaz&#601;ni verdiyi hal istisna
+olmaqla, h&#601;m&ccedil;inin d&#601; &#304;stifad&#601;&ccedil;i
+raz&#305;la&#351;mas&#305; il&#601; v&#601; ya qanunvericilikl&#601;
+n&#601;z&#601;rd&#601; tutulmu&#351; hallarda, vermir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.12.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+v&#601; Administrasiya b&#601;zi hallarda b&#601;zi m&#601;lumatlar&#305;
+Servisl&#601; &#601;m&#601;kda&#351;l&#305;q ed&#601;n v&#601; ya
+Administrasiya il&#601; ba&#287;l&#305; olan &#351;&#601;xsl&#601;r&#601;
+ver&#601; bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.13.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+Servisd&#601;n istifad&#601; prosesind&#601;
+&#304;stifad&#601;&ccedil;il&#601;r t&#601;r&#601;find&#601;n verilmi&#351;
+informasiyan&#305; v&#601; &#351;&#601;xsi m&#601;lumatlar&#305; satm&#305;r
+v&#601; icar&#601;y&#601; vermir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.14.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;il&#601;r
+aras&#305;nda qar&#351;&#305;l&#305;ql&#305; t&#601;siri
+y&uuml;ng&uuml;ll&#601;&#351;dirm&#601;k &uuml;&ccedil;&uuml;n,
+xidm&#601;tl&#601;r ba&#351;qa &#304;stifad&#601;&ccedil;il&#601;rin
+&#601;laq&#601; informasiyas&#305;na
+m&#601;hdudla&#351;d&#305;r&#305;lm&#305;&#351; giri&#351;i
+n&#601;z&#601;rd&#601; tutur. Ba&#351;qa &#304;stifad&#601;&ccedil;il&#601;r
+t&#601;r&#601;find&#601;n verilmi&#351; m&#601;lumatlardan istifad&#601;
+h&uuml;ququ &#304;stifad&#601;&ccedil;i raz&#305;la&#351;mas&#305; il&#601;
+m&#601;hdudla&#351;d&#305;r&#305;l&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.15.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+&#304;stifad&#601;&ccedil;isi ba&#351;qa &#304;stifad&#601;&ccedil;i
+t&#601;r&#601;find&#601;n verilmi&#351; m&#601;lumatlardan, bel&#601;
+&#304;stifad&#601;&ccedil;inin yaz&#305;l&#305; icaz&#601;si olmadan v&#601; ya
+bel&#601; m&#601;lumatlardan h&#601;r hans&#305; ba&#351;qa yolla istifad&#601;
+etm&#601;k h&uuml;ququnun t&#601;sdiqi olmadan istifad&#601; etm&#601;m&#601;yi
+&ouml;hd&#601;sin&#601; g&ouml;t&uuml;r&uuml;r. Servisd&#601;n istifad&#601;
+il&#601; &#601;laq&#601;dar ba&#351;qa &#304;stifad&#601;&ccedil;il&#601;r haqq&#305;nda
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n al&#305;nm&#305;&#351;
+b&uuml;t&uuml;n m&#601;lumatlar yaln&#305;z Mallar bar&#601;sind&#601;
+sazi&#351;l&#601;rin icras&#305;nda istifad&#601; edil&#601; bil&#601;r.
+Bel&#601;likl&#601;, &#304;stifad&#601;&ccedil;iy&#601; d&uuml;z reklam
+g&ouml;nd&#601;rm&#601;si v&#601; ya arzu edilm&#601;y&#601;n elektron
+x&#601;b&#601;rl&#601;rin ba&#351;qa g&ouml;nd&#601;rm&#601;si
+m&#601;qs&#601;dl&#601;ri &uuml;&ccedil;&uuml;n elektron &uuml;nvandan
+istifad&#601; etm&#601;y&#601;, ba&#351;qa &#304;stifad&#601;&ccedil;inin
+telefon n&ouml;mr&#601;si kimi, h&#601;m&ccedil;inin x&#601;b&#601;rsiz
+edil&#601;n qeyri-qanuni h&#601;r&#601;k&#601;tl&#601;r&#601; v&#601; ya
+ba&#351;qa &#304;stifad&#601;&ccedil;inin x&#601;b&#601;ri v&#601;
+raz&#305;l&#305;&#287;&#305; olmadan h&#601;yata ke&ccedil;irilmi&#351;
+h&#601;r&#601;k&#601;tl&#601;r&#601; icaz&#601; verilmir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.16.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+&#304;stifad&#601;&ccedil;isi onun Servisd&#601;n istifad&#601; prosesind&#601;
+verdiyi &#351;&#601;xsi v&#601; ba&#351;qa m&#601;lumatlar&#305;
+ist&#601;nil&#601;n qism&#601;n vaxt d&#601;yi&#351;dirm&#601;k, silm&#601;k
+v&#601; ya ba&#351;qa &uuml;sulla redakt&#601; etm&#601;k imkan&#305;na
+malikdir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.17.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+onun g&ouml;st&#601;rdiyi ist&#601;nil&#601;n informasiyan&#305;n v&#601;
+m&#601;lumatlar&#305;n d&#601;qiqliyi v&#601; d&uuml;zg&uuml;nl&uuml;y&uuml;
+&uuml;&ccedil;&uuml;n m&#601;suliyy&#601;t da&#351;&#305;y&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.18.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#399;g&#601;r
+&#304;stifad&#601;&ccedil;i giri&#351;i, qeydiyyat&#305; h&#601;yata
+ke&ccedil;irmi&#351;s&#601; v&#601; OpenID xidm&#601;tinin k&ouml;m&#601;yi
+il&#601; Servisd&#601;n istifad&#601; edirs&#601;, &#304;stifad&#601;&ccedil;i
+onun m&#601;lumatlar&#305;n&#305;n &ouml;t&uuml;r&uuml;lm&#601;si v&#601;
+onlardan istifad&#601; qaydas&#305;n&#305; bel&#601; xidm&#601;tin
+parametrl&#601;rind&#601; qura bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.19.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+v&#601; Administrasiya &#304;stifad&#601;&ccedil;inin &#351;&#601;xsi
+m&#601;lumatlar&#305;n&#305;n &uuml;&ccedil;&uuml;nc&uuml;
+&#351;&#601;xsl&#601;rin icaz&#601;siz giri&#351;ind&#601;n m&uuml;dafi&#601;si
+&uuml;&ccedil;&uuml;n b&uuml;t&uuml;n s&#601;m&#601;r&#601;li &ouml;l&ccedil;&uuml;l&#601;ri
+q&#601;bul edir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>1.20.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+t&#601;r&#601;find&#601;n toplanm&#305;&#351; v&#601; i&#351;l&#601;nmi&#351;
+b&uuml;t&uuml;n &#351;&#601;xsi m&#601;lumatlar bir v&#601; ya bir
+ne&ccedil;&#601; qorunan korporativ &#351;&#601;b&#601;k&#601;d&#601;n
+k&#601;narda giri&#351; olmayan serverd&#601; saxlan&#305;l&#305;r.
+Administrasiyan&#305;n &#304;stifad&#601;&ccedil;il&#601;rin &#351;&#601;xsi
+v&#601; ba&#351;qa informasiyas&#305;ndan giri&#351;l&#601; v&#601;
+istifad&#601; il&#601; funksiyalar&#305; yerin&#601; yetir&#601;n
+b&uuml;t&uuml;n &#601;m&#601;kda&#351;lar&#305; &uuml;&ccedil;&uuml;nc&uuml;
+&#351;&#601;xsl&#601;r&#601; &#304;stifad&#601;&ccedil;il&#601;r haqq&#305;nda
+informasiyan&#305;n yay&#305;lmamas&#305; haqq&#305;nda raz&#305;la&#351;ma
+imzalam&#305;&#351;lar.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2. Cookies, veb-mayaklar,
+v&#601; ox&#351;ar texnologiyalar</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+informasiyan&#305;n saxlan&#305;lmas&#305; &uuml;&ccedil;&uuml;n cookies
+fayllar&#305;ndan, veb-mayaklardan v&#601; ba&#351;qa ox&#351;ar
+texnologiyalardan istifad&#601; ed&#601; bil&#601;r. Bu fayllar veb-sayt&#305;n
+v&#601; onun &#601;lav&#601;l&#601;rinin istifad&#601;sini
+y&uuml;ng&uuml;ll&#601;&#351;dirm&#601;k m&#601;qs&#601;di il&#601;, Servis
+xidm&#601;tl&#601;rinin keyfiyy&#601;tinin art&#305;r&#305;lmas&#305;
+m&#601;qs&#601;di il&#601; (h&#601;m&ccedil;inin t&#601;hl&uuml;k&#601;sizlik),
+h&#601;m&ccedil;inin reklam m&#601;qs&#601;di il&#601; istifad&#601; olunur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+t&#601;r&#601;find&#601;n &#304;stifad&#601;&ccedil;id&#601;n al&#305;nan
+ist&#601;nil&#601;n informasiya, h&#601;m&ccedil;inin cookies
+fayllar&#305;n&#305;n &#304;stifad&#601;&ccedil;inin brauzerind&#601;
+yerl&#601;&#351;dirilm&#601;si, x&#601;b&#601;rdarl&#305;q vasit&#601;sil&#601;
+v&#601; &#304;stifad&#601;&ccedil;inin icaz&#601;si il&#601; h&#601;yata
+ke&ccedil;irilir. Servisd&#601;n istifad&#601;ni davam ed&#601;r&#601;k,
+&#304;stifad&#601;&ccedil;i Servis&#601; cookies fayllar&#305;n&#305;n
+&#304;stifad&#601;&ccedil;inin brauzerind&#601; saxlamas&#305;na &ouml;z
+icaz&#601;sini verir.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servis
+cookies-d&#601;n v&#601; ox&#351;ar texnologiyalardan,
+&#304;stifad&#601;&ccedil;inin brauzerinin f&#601;all&#305;&#287;&#305;
+prosesind&#601; &#304;stifad&#601;&ccedil;inin qur&#287;usunda qalan v&#601;
+cookies, h&#601;m&ccedil;inin d&#601; daha uzun m&uuml;dd&#601;tli d&ouml;vr
+&#601;rzind&#601; &#304;stifad&#601;&ccedil;inin qur&#287;usunda qalan
+ba&#351;qa ox&#351;ar texnologiyalardan istifad&#601; edir.
+&#304;stifad&#601;&ccedil;i bel&#601; cookies v&#601; ox&#351;ar
+texnologiyalar&#305; bloklamaqda, silm&#601;kd&#601; v&#601; ya
+k&#601;sm&#601;kd&#601;, &#601;g&#601;r &#304;stifad&#601;&ccedil;inin
+qur&#287;usu buna icaz&#601; verirs&#601;, haql&#305;d&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.3.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Cookies
+– komp&uuml;ter terminologiyas&#305;nda Servisd&#601;n al&#305;nm&#305;&#351;
+m&#601;tn v&#601; ya ikili m&#601;lumatlar &#351;&#601;klind&#601;
+informasiyan&#305;n t&#601;sviri &uuml;&ccedil;&uuml;n istifad&#601;
+edil&#601;n anlay&#305;&#351;d&#305;r ki, &#304;stifad&#601;&ccedil;id&#601;
+saxlan&#305;l&#305;r, y&#601;ni brauzerd&#601;, sonra is&#601;, &#601;g&#601;r
+Servisin &#304;stifad&#601;&ccedil;isi ona t&#601;krar olaraq ba&#351;
+&ccedil;&#601;kirs&#601;, Servis&#601; yollan&#305;r. Bel&#601;likl&#601;,
+Servis ba&#351; &ccedil;&#601;km&#601; vaxt&#305;
+&#304;stifad&#601;&ccedil;inin brauzerini qeyd edir. Cookies fayllar&#305; sistem&#601;
+giri&#351; v&#601; statistika y&#305;&#287;&#305;m&#305; &uuml;&ccedil;&uuml;n
+laz&#305;m&#305; m&#601;lumatlar&#305; yazaraq Servisd&#601;n istifad&#601;ni
+y&uuml;ng&uuml;ll&#601;&#351;dirir. Cookies fallar&#305; &ouml;z&uuml;nd&#601;
+&#351;&#601;xsi m&#601;lumatlar&#305; saxlam&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.3.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Veb-mayaklar
+– Servisd&#601;, h&#601;m&ccedil;inin onun xidm&#601;tl&#601;rind&#601;,
+&#601;lav&#601;l&#601;rd&#601;, m&uuml;badil&#601;
+x&#601;b&#601;rl&#601;rind&#601;, v&#601; &#304;stifad&#601;&ccedil;ini
+m&uuml;&#601;yy&#601;n etm&#601;k &uuml;&ccedil;&uuml;n ad&#601;t&#601;n
+cookies il&#601; uy&#287;unluqda i&#351;l&#601;y&#601;n
+al&#601;tl&#601;rd&#601; qo&#351;ula bil&#601;n ki&ccedil;ik qrafik
+t&#601;svirl&#601;rdir (h&#601;m&ccedil;inin &quot;n&ouml;qt&#601;
+mark&ouml;rl&#601;ri&quot; v&#601; ya &quot;&#350;&#601;b&#601;k&#601;
+mayaklar&#305;&quot; kimi m&#601;lumdur).</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.3.3.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Ox&#351;ar
+texnologiyalar – lokal &uuml;mumi obyektl&#601;ri v&#601; ya lokal anbar&#305;
+v&#601; proqram veb-&#601;lav&#601;l&#601;rinin ba&#351;qa metodlar&#305;
+istifad&#601; ed&#601;n, brauzerd&#601; v&#601; ya qur&#287;uda
+informasiyan&#305; saxlayan, &quot;flashcookies&quot; &quot;HTML 5
+cookies&quot; kimi, texnologiyalard&#305;r. Bu texnologiyalar
+&#304;stifad&#601;&ccedil;inin b&uuml;t&uuml;n brauzerl&#601;rind&#601;
+i&#351;l&#601;y&#601; bil&#601;r, b&#601;zi hallarda is&#601; tamamil&#601;
+brauzerl&#601; idar&#601; oluna bilmirl&#601;r v&#601;
+&#304;stifad&#601;&ccedil;i t&#601;r&#601;find&#601;n t&#601;yin edilmi&#351;
+&#601;lav&#601;l&#601;r v&#601; ya qur&#287;ular vasit&#601;sil&#601; bilavasit&#601;
+idar&#601;etm&#601;ni t&#601;l&#601;b ed&#601; bil&#601;rl&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.4.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Cookies-&#601;
+v&#601; ox&#351;ar texnologiyalara icaz&#601; olunmam&#305;&#351; giri&#351;in
+qar&#351;&#305;s&#305;n&#305; almaq &uuml;&ccedil;&uuml;n Administrasiya
+b&uuml;t&uuml;n t&#601;hl&uuml;k&#601;sizlik t&#601;dbirl&#601;rini g&ouml;r&uuml;r.
+&#304;stifad&#601;&ccedil;i analoji t&#601;hl&uuml;k&#601;sizlik
+t&#601;dbirl&#601;rini g&ouml;rm&#601;yi &ouml;hd&#601;sin&#601;
+g&ouml;t&uuml;r&uuml;r. Administrasiya z&#601;man&#601;t verir ki, yaln&#305;z
+Administrasiya v&#601;/v&#601; ya Servis xidm&#601;tl&#601;rinin
+s&#601;lahiyy&#601;tli t&#601;chizat&ccedil;&#305;lar&#305; cookies
+m&#601;lumatlar&#305;na giri&#351;&#601; malikdirl&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.5.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+xidm&#601;tl&#601;rinin t&#601;chizat&ccedil;&#305;lar&#305; Servisin
+m&uuml;xt&#601;lif aspektl&#601;ri il&#601; k&ouml;m&#601;k ed&#601;n
+&#351;irk&#601;tl&#601;rdir. Administrasiya Servisin uy&#287;un olan
+xidm&#601;tl&#601;rinin &#304;stifad&#601;&ccedil;iy&#601; verilm&#601;si,
+h&#601;m&ccedil;inin d&#601; Servisin bilavasit&#601; f&#601;aliyy&#601;ti
+il&#601; ba&#287;l&#305; ba&#351;qa m&#601;qs&#601;dl&#601;r &uuml;&ccedil;&uuml;n
+xidm&#601;tl&#601;rin b&#601;zi s&#601;lahiyy&#601;tli
+t&#601;chizat&ccedil;&#305;lar&#305;ndan istifad&#601; edir.
+Xidm&#601;tl&#601;rin bel&#601; t&#601;chizat&ccedil;&#305;lar&#305;
+h&#601;m&ccedil;inin Servisin (k&#601;nar cookies) xidm&#601;tl&#601;ri
+vasit&#601;sil&#601; cookies-i &#304;stifad&#601;&ccedil;inin qur&#287;usunda
+yerl&#601;&#351;dir&#601; bil&#601;rl&#601;r. Onlar h&#601;m&ccedil;inin
+ba&#351;qa informasiyan&#305;, m&#601;s&#601;l&#601;n, IP-&uuml;nvan v&#601; ya
+ba&#351;qa eynil&#601;&#351;diricil&#601;ri, toplaya bil&#601;rl&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.6.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Servisin
+yuxar&#305;da g&ouml;st&#601;rilmi&#351; texnologiyalardan istifad&#601;
+vasit&#601;sil&#601; toplay&#305;b v&#601; saxlad&#305;&#287;&#305;
+ist&#601;nil&#601;n informasiyadan &#304;stifad&#601;&ccedil;inin icaz&#601;si
+il&#601; istifad&#601; olunur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.7.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;i
+brauzerin v&#601; ya qur&#287;unun parametrl&#601;rind&#601; cookies-i
+idar&#601; ed&#601; bil&#601;r. &#304;nformasiyan&#305;n toplanmas&#305;ndan
+v&#601; saxlan&#305;lmas&#305;ndan imtina &uuml;&ccedil;&uuml;n brauzerin
+parametrl&#601;rind&#601; &quot;Cookies-i saxlamamaq&quot; b&#601;ndind&#601;
+bayraqc&#305;&#287;&#305; qurmaq, h&#601;m&ccedil;inin &quot;Cookies-i
+t&#601;mizl&#601;m&#601;k&quot; d&uuml;ym&#601;sini basmaq laz&#305;md&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.8.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Sistemd&#601;
+olan texniki xarakterli informasiya, m&#601;s&#601;l&#601;n, ip-&uuml;nvanlar,
+Servis t&#601;r&#601;find&#601;n &#351;&#601;b&#601;k&#601;
+avadanl&#305;&#287;&#305;n&#305;n xidm&#601;ti &uuml;&ccedil;&uuml;n,
+h&#601;m&ccedil;inin statistik v&#601; ba&#351;qa informasiyan&#305;n
+&uuml;mumil&#601;&#351;dirilm&#601;si &uuml;&ccedil;&uuml;n istifad&#601;
+olunur.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>2.9.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#304;stifad&#601;&ccedil;inin
+f&#601;rdi ehtiyaclar&#305;na v&#601; maraqlar&#305;na
+uy&#287;unla&#351;d&#305;r&#305;lan veril&#601;n servisl&#601;rin
+y&uuml;ks&#601;k keyfiyy&#601;tli t&#601;minat&#305; m&#601;qs&#601;di il&#601;
+Servis &#304;stifad&#601;&ccedil;inin sistem&#601; son giri&#351;inin
+m&#601;lumatlar&#305;n&#305; saxlay&#305;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3. M&#601;xfiliyin
+siyas&#601;tin&#601; d&#601;yi&#351;iklikl&#601;rin daxil etm&#601;si</span></b></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.1.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;Administrasiya
+M&#601;xfilik Siyas&#601;tin&#601; d&#601;yi&#351;iklikl&#601;r ed&#601;,
+sil&#601; v&#601; ya qaydalar&#305;n&#305; yenil&#601;y&#601; bil&#601;r.</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;line-height:19.5pt'><b><span style='font-size:10.5pt;
+font-family:"Arial","sans-serif";color:#727272'>3.2.</span></b><span
+style='font-size:10.5pt;font-family:"Arial","sans-serif";color:#727272'>&nbsp;&#399;g&#601;r
+&#304;stifad&#601;&ccedil;i daxil edilmi&#351;
+d&#601;yi&#351;iklikl&#601;rl&#601; raz&#305; deyils&#601;, o Servisd&#601;n
+istifad&#601;ni dayand&#305;rmal&#305;d&#305;r. &#399;g&#601;r
+&#304;stifad&#601;&ccedil;i Servisd&#601;n istifad&#601; etm&#601;y&#601; davam
+edirs&#601;, o raz&#305;la&#351;&#305;r v&#601; b&uuml;t&uuml;n
+d&#601;yi&#351;iklikl&#601;ri v&#601; M&#601;xfilik siyas&#601;tinin yeni
+redaksiyas&#305;n&#305; b&uuml;t&ouml;vl&uuml;kd&#601; q&#601;bul edir.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+
+
+</div>
+ </div>
+
+
+
+
+
+<!-- Azev Footer part start -->
+<div class="footer_part">
+    <div class="container">
+       <div class="footer_part1">
+           <nav class="footer_part1_navigation">
+                <a href="#">İstifadəçi razılaşması</a>
+                <a href="#">Layihə haqda</a>
+                <a href="#">Reklam yerləşdirin</a>
+                <a href="#">Əlaqə: info@azev.az / (012) 505-08-02</a>
+            </nav>
+       </div>
+       <div class="footer_line"></div>
+       <div class="footer_part2">
+           <div class="footer_part2_header">Bakının rayonları:</div>
+           <div class="footer_part2_links">
+               <div class="footer_part2_link">- Abşeron</div>
+               <div class="footer_part2_link">- Binəqədi</div>
+               <div class="footer_part2_link">- Xətai</div>
+               <div class="footer_part2_link">- Xəzər</div>
+               <div class="footer_part2_link">- Qaradağ</div>
+               <div class="footer_part2_link">- Nərimanov</div>
+               <div class="footer_part2_link">- Nəsimi</div>
+               <div class="footer_part2_link">- Nizamin</div>
+           </div>
+       </div>
+        <div class="footer_line"></div>
+<div class="footer_part2_copyright">Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş elanların məzmununa görə məsuliyyət daşımır.</div>
+<div class="footer_part2_copyright">© 2021 1001code</div>
+    </div>
+</div>
+
+    </div><!-- Vertical wraper -->
+<script src="/js/bs.js"></script>
+
+
+</body>
+</html>
